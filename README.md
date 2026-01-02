@@ -44,7 +44,19 @@ streamlit run main.py
 - Threshold logic (default): mark station UNAVAILABLE when report count reaches 5
 
 ## Bounded Context Communication
-**Strategy: Option (2)**. The Malfunction Context publishes events (e.g., `StationStatusChangedEvent`, `StationRestoredEvent`) which affect the state in the Discovery Context (marking stations as Unavailable/Available).
+**Strategy: Option (2) - Event-Driven Architecture**. 
+
+The Malfunction Context communicates with the Discovery Context by publishing **Domain Events** (e.g., `StationStatusChangedEvent`, `StationRestoredEvent`).
+
+**Why this strategy?**
+1.  **Decoupling**: The *Discovery* context (optimized for reading/searching) doesn't need to know the complex internal logic of *Malfunction* (thresholds, duplicate checks, admin workflows). It simply reacts to "Status Changed" facts.
+2.  **Scalability**: Writing reports (high write volume potentially) is separated from searching stations (high read volume). In a real system, these could be separate microservices.
+3.  **Resilience**: If the Malfunction service goes down, users can still search for stations (even if status updates are delayed).
+
+**Implementation Details**:
+- `Service Layer` in Malfunction emits events.
+- `Repository Layer` in Discovery accepts status updates.
+- In this monolithic prototype, the "Bus" is synchronous for simplicity, but the design boundaries are respected.
 
 ## Notes for ASE submission
 - Domain events are represented as immutable dataclasses inside `domain/events/`.
