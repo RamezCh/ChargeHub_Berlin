@@ -1,0 +1,2773 @@
+Auflistung der Ordnerpfade
+Volumeseriennummer : D23B-8A82
+C:.
+¦   main.py
+¦   pyproject.toml
+¦   pytest.ini
+¦   README.md
+¦   requirements.txt
+¦   structure.txt
+¦   
++---.mypy_cache
+¦   ¦   .gitignore
+¦   ¦   CACHEDIR.TAG
+¦   ¦   missing_stubs
+¦   ¦   
+¦   +---3.13
+¦   ¦   ¦   @plugins_snapshot.json
+¦   ¦   ¦   abc.data.json
+¦   ¦   ¦   abc.meta.json
+¦   ¦   ¦   argparse.data.json
+¦   ¦   ¦   argparse.meta.json
+¦   ¦   ¦   array.data.json
+¦   ¦   ¦   array.meta.json
+¦   ¦   ¦   ast.data.json
+¦   ¦   ¦   ast.meta.json
+¦   ¦   ¦   atexit.data.json
+¦   ¦   ¦   atexit.meta.json
+¦   ¦   ¦   base64.data.json
+¦   ¦   ¦   base64.meta.json
+¦   ¦   ¦   binascii.data.json
+¦   ¦   ¦   binascii.meta.json
+¦   ¦   ¦   builtins.data.json
+¦   ¦   ¦   builtins.meta.json
+¦   ¦   ¦   bz2.data.json
+¦   ¦   ¦   bz2.meta.json
+¦   ¦   ¦   calendar.data.json
+¦   ¦   ¦   calendar.meta.json
+¦   ¦   ¦   codecs.data.json
+¦   ¦   ¦   codecs.meta.json
+¦   ¦   ¦   configparser.data.json
+¦   ¦   ¦   configparser.meta.json
+¦   ¦   ¦   contextlib.data.json
+¦   ¦   ¦   contextlib.meta.json
+¦   ¦   ¦   contextvars.data.json
+¦   ¦   ¦   contextvars.meta.json
+¦   ¦   ¦   copy.data.json
+¦   ¦   ¦   copy.meta.json
+¦   ¦   ¦   copyreg.data.json
+¦   ¦   ¦   copyreg.meta.json
+¦   ¦   ¦   csv.data.json
+¦   ¦   ¦   csv.meta.json
+¦   ¦   ¦   dataclasses.data.json
+¦   ¦   ¦   dataclasses.meta.json
+¦   ¦   ¦   datetime.data.json
+¦   ¦   ¦   datetime.meta.json
+¦   ¦   ¦   decimal.data.json
+¦   ¦   ¦   decimal.meta.json
+¦   ¦   ¦   dis.data.json
+¦   ¦   ¦   dis.meta.json
+¦   ¦   ¦   enum.data.json
+¦   ¦   ¦   enum.meta.json
+¦   ¦   ¦   errno.data.json
+¦   ¦   ¦   errno.meta.json
+¦   ¦   ¦   fnmatch.data.json
+¦   ¦   ¦   fnmatch.meta.json
+¦   ¦   ¦   fractions.data.json
+¦   ¦   ¦   fractions.meta.json
+¦   ¦   ¦   functools.data.json
+¦   ¦   ¦   functools.meta.json
+¦   ¦   ¦   gc.data.json
+¦   ¦   ¦   gc.meta.json
+¦   ¦   ¦   genericpath.data.json
+¦   ¦   ¦   genericpath.meta.json
+¦   ¦   ¦   getpass.data.json
+¦   ¦   ¦   getpass.meta.json
+¦   ¦   ¦   gettext.data.json
+¦   ¦   ¦   gettext.meta.json
+¦   ¦   ¦   glob.data.json
+¦   ¦   ¦   glob.meta.json
+¦   ¦   ¦   gzip.data.json
+¦   ¦   ¦   gzip.meta.json
+¦   ¦   ¦   hashlib.data.json
+¦   ¦   ¦   hashlib.meta.json
+¦   ¦   ¦   heapq.data.json
+¦   ¦   ¦   heapq.meta.json
+¦   ¦   ¦   hmac.data.json
+¦   ¦   ¦   hmac.meta.json
+¦   ¦   ¦   inspect.data.json
+¦   ¦   ¦   inspect.meta.json
+¦   ¦   ¦   io.data.json
+¦   ¦   ¦   io.meta.json
+¦   ¦   ¦   itertools.data.json
+¦   ¦   ¦   itertools.meta.json
+¦   ¦   ¦   keyword.data.json
+¦   ¦   ¦   keyword.meta.json
+¦   ¦   ¦   linecache.data.json
+¦   ¦   ¦   linecache.meta.json
+¦   ¦   ¦   locale.data.json
+¦   ¦   ¦   locale.meta.json
+¦   ¦   ¦   marshal.data.json
+¦   ¦   ¦   marshal.meta.json
+¦   ¦   ¦   math.data.json
+¦   ¦   ¦   math.meta.json
+¦   ¦   ¦   mimetypes.data.json
+¦   ¦   ¦   mimetypes.meta.json
+¦   ¦   ¦   mmap.data.json
+¦   ¦   ¦   mmap.meta.json
+¦   ¦   ¦   ntpath.data.json
+¦   ¦   ¦   ntpath.meta.json
+¦   ¦   ¦   nturl2path.data.json
+¦   ¦   ¦   nturl2path.meta.json
+¦   ¦   ¦   numbers.data.json
+¦   ¦   ¦   numbers.meta.json
+¦   ¦   ¦   opcode.data.json
+¦   ¦   ¦   opcode.meta.json
+¦   ¦   ¦   operator.data.json
+¦   ¦   ¦   operator.meta.json
+¦   ¦   ¦   pathlib.data.json
+¦   ¦   ¦   pathlib.meta.json
+¦   ¦   ¦   pickle.data.json
+¦   ¦   ¦   pickle.meta.json
+¦   ¦   ¦   pkgutil.data.json
+¦   ¦   ¦   pkgutil.meta.json
+¦   ¦   ¦   platform.data.json
+¦   ¦   ¦   platform.meta.json
+¦   ¦   ¦   posixpath.data.json
+¦   ¦   ¦   posixpath.meta.json
+¦   ¦   ¦   pprint.data.json
+¦   ¦   ¦   pprint.meta.json
+¦   ¦   ¦   queue.data.json
+¦   ¦   ¦   queue.meta.json
+¦   ¦   ¦   random.data.json
+¦   ¦   ¦   random.meta.json
+¦   ¦   ¦   re.data.json
+¦   ¦   ¦   re.meta.json
+¦   ¦   ¦   secrets.data.json
+¦   ¦   ¦   secrets.meta.json
+¦   ¦   ¦   select.data.json
+¦   ¦   ¦   select.meta.json
+¦   ¦   ¦   selectors.data.json
+¦   ¦   ¦   selectors.meta.json
+¦   ¦   ¦   shlex.data.json
+¦   ¦   ¦   shlex.meta.json
+¦   ¦   ¦   shutil.data.json
+¦   ¦   ¦   shutil.meta.json
+¦   ¦   ¦   signal.data.json
+¦   ¦   ¦   signal.meta.json
+¦   ¦   ¦   socket.data.json
+¦   ¦   ¦   socket.meta.json
+¦   ¦   ¦   socketserver.data.json
+¦   ¦   ¦   socketserver.meta.json
+¦   ¦   ¦   sre_compile.data.json
+¦   ¦   ¦   sre_compile.meta.json
+¦   ¦   ¦   sre_constants.data.json
+¦   ¦   ¦   sre_constants.meta.json
+¦   ¦   ¦   sre_parse.data.json
+¦   ¦   ¦   sre_parse.meta.json
+¦   ¦   ¦   ssl.data.json
+¦   ¦   ¦   ssl.meta.json
+¦   ¦   ¦   stat.data.json
+¦   ¦   ¦   stat.meta.json
+¦   ¦   ¦   string.data.json
+¦   ¦   ¦   string.meta.json
+¦   ¦   ¦   struct.data.json
+¦   ¦   ¦   struct.meta.json
+¦   ¦   ¦   subprocess.data.json
+¦   ¦   ¦   subprocess.meta.json
+¦   ¦   ¦   sysconfig.data.json
+¦   ¦   ¦   sysconfig.meta.json
+¦   ¦   ¦   tarfile.data.json
+¦   ¦   ¦   tarfile.meta.json
+¦   ¦   ¦   tempfile.data.json
+¦   ¦   ¦   tempfile.meta.json
+¦   ¦   ¦   textwrap.data.json
+¦   ¦   ¦   textwrap.meta.json
+¦   ¦   ¦   threading.data.json
+¦   ¦   ¦   threading.meta.json
+¦   ¦   ¦   time.data.json
+¦   ¦   ¦   time.meta.json
+¦   ¦   ¦   timeit.data.json
+¦   ¦   ¦   timeit.meta.json
+¦   ¦   ¦   traceback.data.json
+¦   ¦   ¦   traceback.meta.json
+¦   ¦   ¦   types.data.json
+¦   ¦   ¦   types.meta.json
+¦   ¦   ¦   typing.data.json
+¦   ¦   ¦   typing.meta.json
+¦   ¦   ¦   typing_extensions.data.json
+¦   ¦   ¦   typing_extensions.meta.json
+¦   ¦   ¦   unicodedata.data.json
+¦   ¦   ¦   unicodedata.meta.json
+¦   ¦   ¦   uuid.data.json
+¦   ¦   ¦   uuid.meta.json
+¦   ¦   ¦   warnings.data.json
+¦   ¦   ¦   warnings.meta.json
+¦   ¦   ¦   weakref.data.json
+¦   ¦   ¦   weakref.meta.json
+¦   ¦   ¦   webbrowser.data.json
+¦   ¦   ¦   webbrowser.meta.json
+¦   ¦   ¦   zipimport.data.json
+¦   ¦   ¦   zipimport.meta.json
+¦   ¦   ¦   zlib.data.json
+¦   ¦   ¦   zlib.meta.json
+¦   ¦   ¦   _ast.data.json
+¦   ¦   ¦   _ast.meta.json
+¦   ¦   ¦   _asyncio.data.json
+¦   ¦   ¦   _asyncio.meta.json
+¦   ¦   ¦   _blake2.data.json
+¦   ¦   ¦   _blake2.meta.json
+¦   ¦   ¦   _bz2.data.json
+¦   ¦   ¦   _bz2.meta.json
+¦   ¦   ¦   _codecs.data.json
+¦   ¦   ¦   _codecs.meta.json
+¦   ¦   ¦   _collections_abc.data.json
+¦   ¦   ¦   _collections_abc.meta.json
+¦   ¦   ¦   _compression.data.json
+¦   ¦   ¦   _compression.meta.json
+¦   ¦   ¦   _contextvars.data.json
+¦   ¦   ¦   _contextvars.meta.json
+¦   ¦   ¦   _csv.data.json
+¦   ¦   ¦   _csv.meta.json
+¦   ¦   ¦   _ctypes.data.json
+¦   ¦   ¦   _ctypes.meta.json
+¦   ¦   ¦   _curses.data.json
+¦   ¦   ¦   _curses.meta.json
+¦   ¦   ¦   _decimal.data.json
+¦   ¦   ¦   _decimal.meta.json
+¦   ¦   ¦   _frozen_importlib.data.json
+¦   ¦   ¦   _frozen_importlib.meta.json
+¦   ¦   ¦   _frozen_importlib_external.data.json
+¦   ¦   ¦   _frozen_importlib_external.meta.json
+¦   ¦   ¦   _hashlib.data.json
+¦   ¦   ¦   _hashlib.meta.json
+¦   ¦   ¦   _heapq.data.json
+¦   ¦   ¦   _heapq.meta.json
+¦   ¦   ¦   _io.data.json
+¦   ¦   ¦   _io.meta.json
+¦   ¦   ¦   _locale.data.json
+¦   ¦   ¦   _locale.meta.json
+¦   ¦   ¦   _operator.data.json
+¦   ¦   ¦   _operator.meta.json
+¦   ¦   ¦   _pickle.data.json
+¦   ¦   ¦   _pickle.meta.json
+¦   ¦   ¦   _queue.data.json
+¦   ¦   ¦   _queue.meta.json
+¦   ¦   ¦   _random.data.json
+¦   ¦   ¦   _random.meta.json
+¦   ¦   ¦   _sitebuiltins.data.json
+¦   ¦   ¦   _sitebuiltins.meta.json
+¦   ¦   ¦   _socket.data.json
+¦   ¦   ¦   _socket.meta.json
+¦   ¦   ¦   _ssl.data.json
+¦   ¦   ¦   _ssl.meta.json
+¦   ¦   ¦   _stat.data.json
+¦   ¦   ¦   _stat.meta.json
+¦   ¦   ¦   _struct.data.json
+¦   ¦   ¦   _struct.meta.json
+¦   ¦   ¦   _thread.data.json
+¦   ¦   ¦   _thread.meta.json
+¦   ¦   ¦   _warnings.data.json
+¦   ¦   ¦   _warnings.meta.json
+¦   ¦   ¦   _weakref.data.json
+¦   ¦   ¦   _weakref.meta.json
+¦   ¦   ¦   _weakrefset.data.json
+¦   ¦   ¦   _weakrefset.meta.json
+¦   ¦   ¦   _winapi.data.json
+¦   ¦   ¦   _winapi.meta.json
+¦   ¦   ¦   __future__.data.json
+¦   ¦   ¦   __future__.meta.json
+¦   ¦   ¦   
+¦   ¦   +---altair
+¦   ¦   ¦   ¦   theme.data.json
+¦   ¦   ¦   ¦   theme.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---expr
+¦   ¦   ¦   ¦       core.data.json
+¦   ¦   ¦   ¦       core.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---jupyter
+¦   ¦   ¦   ¦       jupyter_chart.data.json
+¦   ¦   ¦   ¦       jupyter_chart.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---typing
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---utils
+¦   ¦   ¦   ¦       compiler.data.json
+¦   ¦   ¦   ¦       compiler.meta.json
+¦   ¦   ¦   ¦       core.data.json
+¦   ¦   ¦   ¦       core.meta.json
+¦   ¦   ¦   ¦       data.data.json
+¦   ¦   ¦   ¦       data.meta.json
+¦   ¦   ¦   ¦       deprecation.data.json
+¦   ¦   ¦   ¦       deprecation.meta.json
+¦   ¦   ¦   ¦       display.data.json
+¦   ¦   ¦   ¦       display.meta.json
+¦   ¦   ¦   ¦       html.data.json
+¦   ¦   ¦   ¦       html.meta.json
+¦   ¦   ¦   ¦       mimebundle.data.json
+¦   ¦   ¦   ¦       mimebundle.meta.json
+¦   ¦   ¦   ¦       plugin_registry.data.json
+¦   ¦   ¦   ¦       plugin_registry.meta.json
+¦   ¦   ¦   ¦       save.data.json
+¦   ¦   ¦   ¦       save.meta.json
+¦   ¦   ¦   ¦       schemapi.data.json
+¦   ¦   ¦   ¦       schemapi.meta.json
+¦   ¦   ¦   ¦       selection.data.json
+¦   ¦   ¦   ¦       selection.meta.json
+¦   ¦   ¦   ¦       server.data.json
+¦   ¦   ¦   ¦       server.meta.json
+¦   ¦   ¦   ¦       _dfi_types.data.json
+¦   ¦   ¦   ¦       _dfi_types.meta.json
+¦   ¦   ¦   ¦       _importers.data.json
+¦   ¦   ¦   ¦       _importers.meta.json
+¦   ¦   ¦   ¦       _transformed_data.data.json
+¦   ¦   ¦   ¦       _transformed_data.meta.json
+¦   ¦   ¦   ¦       _vegafusion_data.data.json
+¦   ¦   ¦   ¦       _vegafusion_data.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---vegalite
+¦   ¦   ¦       ¦   data.data.json
+¦   ¦   ¦       ¦   data.meta.json
+¦   ¦   ¦       ¦   display.data.json
+¦   ¦   ¦       ¦   display.meta.json
+¦   ¦   ¦       ¦   __init__.data.json
+¦   ¦   ¦       ¦   __init__.meta.json
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---v5
+¦   ¦   ¦           ¦   api.data.json
+¦   ¦   ¦           ¦   api.meta.json
+¦   ¦   ¦           ¦   compiler.data.json
+¦   ¦   ¦           ¦   compiler.meta.json
+¦   ¦   ¦           ¦   data.data.json
+¦   ¦   ¦           ¦   data.meta.json
+¦   ¦   ¦           ¦   display.data.json
+¦   ¦   ¦           ¦   display.meta.json
+¦   ¦   ¦           ¦   theme.data.json
+¦   ¦   ¦           ¦   theme.meta.json
+¦   ¦   ¦           ¦   __init__.data.json
+¦   ¦   ¦           ¦   __init__.meta.json
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---schema
+¦   ¦   ¦                   channels.data.json
+¦   ¦   ¦                   channels.meta.json
+¦   ¦   ¦                   core.data.json
+¦   ¦   ¦                   core.meta.json
+¦   ¦   ¦                   mixins.data.json
+¦   ¦   ¦                   mixins.meta.json
+¦   ¦   ¦                   _config.data.json
+¦   ¦   ¦                   _config.meta.json
+¦   ¦   ¦                   _typing.data.json
+¦   ¦   ¦                   _typing.meta.json
+¦   ¦   ¦                   __init__.data.json
+¦   ¦   ¦                   __init__.meta.json
+¦   ¦   ¦                   
+¦   ¦   +---asyncio
+¦   ¦   ¦       base_events.data.json
+¦   ¦   ¦       base_events.meta.json
+¦   ¦   ¦       constants.data.json
+¦   ¦   ¦       constants.meta.json
+¦   ¦   ¦       coroutines.data.json
+¦   ¦   ¦       coroutines.meta.json
+¦   ¦   ¦       events.data.json
+¦   ¦   ¦       events.meta.json
+¦   ¦   ¦       exceptions.data.json
+¦   ¦   ¦       exceptions.meta.json
+¦   ¦   ¦       futures.data.json
+¦   ¦   ¦       futures.meta.json
+¦   ¦   ¦       locks.data.json
+¦   ¦   ¦       locks.meta.json
+¦   ¦   ¦       mixins.data.json
+¦   ¦   ¦       mixins.meta.json
+¦   ¦   ¦       proactor_events.data.json
+¦   ¦   ¦       proactor_events.meta.json
+¦   ¦   ¦       protocols.data.json
+¦   ¦   ¦       protocols.meta.json
+¦   ¦   ¦       queues.data.json
+¦   ¦   ¦       queues.meta.json
+¦   ¦   ¦       runners.data.json
+¦   ¦   ¦       runners.meta.json
+¦   ¦   ¦       selector_events.data.json
+¦   ¦   ¦       selector_events.meta.json
+¦   ¦   ¦       streams.data.json
+¦   ¦   ¦       streams.meta.json
+¦   ¦   ¦       subprocess.data.json
+¦   ¦   ¦       subprocess.meta.json
+¦   ¦   ¦       taskgroups.data.json
+¦   ¦   ¦       taskgroups.meta.json
+¦   ¦   ¦       tasks.data.json
+¦   ¦   ¦       tasks.meta.json
+¦   ¦   ¦       threads.data.json
+¦   ¦   ¦       threads.meta.json
+¦   ¦   ¦       timeouts.data.json
+¦   ¦   ¦       timeouts.meta.json
+¦   ¦   ¦       transports.data.json
+¦   ¦   ¦       transports.meta.json
+¦   ¦   ¦       unix_events.data.json
+¦   ¦   ¦       unix_events.meta.json
+¦   ¦   ¦       windows_events.data.json
+¦   ¦   ¦       windows_events.meta.json
+¦   ¦   ¦       windows_utils.data.json
+¦   ¦   ¦       windows_utils.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---attr
+¦   ¦   ¦       converters.data.json
+¦   ¦   ¦       converters.meta.json
+¦   ¦   ¦       exceptions.data.json
+¦   ¦   ¦       exceptions.meta.json
+¦   ¦   ¦       filters.data.json
+¦   ¦   ¦       filters.meta.json
+¦   ¦   ¦       setters.data.json
+¦   ¦   ¦       setters.meta.json
+¦   ¦   ¦       validators.data.json
+¦   ¦   ¦       validators.meta.json
+¦   ¦   ¦       _cmp.data.json
+¦   ¦   ¦       _cmp.meta.json
+¦   ¦   ¦       _typing_compat.data.json
+¦   ¦   ¦       _typing_compat.meta.json
+¦   ¦   ¦       _version_info.data.json
+¦   ¦   ¦       _version_info.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---attrs
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---blinker
+¦   ¦   ¦       base.data.json
+¦   ¦   ¦       base.meta.json
+¦   ¦   ¦       _utilities.data.json
+¦   ¦   ¦       _utilities.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---chargehub
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---discovery
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---domain
+¦   ¦   ¦   ¦       ¦   __init__.data.json
+¦   ¦   ¦   ¦       ¦   __init__.meta.json
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---aggregates
+¦   ¦   ¦   ¦       ¦       charging_station.data.json
+¦   ¦   ¦   ¦       ¦       charging_station.meta.json
+¦   ¦   ¦   ¦       ¦       __init__.data.json
+¦   ¦   ¦   ¦       ¦       __init__.meta.json
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---value_objects
+¦   ¦   ¦   ¦               postal_code.data.json
+¦   ¦   ¦   ¦               postal_code.meta.json
+¦   ¦   ¦   ¦               __init__.data.json
+¦   ¦   ¦   ¦               __init__.meta.json
+¦   ¦   ¦   ¦               
+¦   ¦   ¦   +---malfunction
+¦   ¦   ¦       ¦   __init__.data.json
+¦   ¦   ¦       ¦   __init__.meta.json
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---infrastructure
+¦   ¦   ¦           ¦   __init__.data.json
+¦   ¦   ¦           ¦   __init__.meta.json
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---repositories
+¦   ¦   ¦                   __init__.data.json
+¦   ¦   ¦                   __init__.meta.json
+¦   ¦   ¦                   
+¦   ¦   +---collections
+¦   ¦   ¦       abc.data.json
+¦   ¦   ¦       abc.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---concurrent
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---futures
+¦   ¦   ¦           process.data.json
+¦   ¦   ¦           process.meta.json
+¦   ¦   ¦           thread.data.json
+¦   ¦   ¦           thread.meta.json
+¦   ¦   ¦           _base.data.json
+¦   ¦   ¦           _base.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---ctypes
+¦   ¦   ¦       _endian.data.json
+¦   ¦   ¦       _endian.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---curses
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---cycler
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---email
+¦   ¦   ¦       charset.data.json
+¦   ¦   ¦       charset.meta.json
+¦   ¦   ¦       contentmanager.data.json
+¦   ¦   ¦       contentmanager.meta.json
+¦   ¦   ¦       errors.data.json
+¦   ¦   ¦       errors.meta.json
+¦   ¦   ¦       header.data.json
+¦   ¦   ¦       header.meta.json
+¦   ¦   ¦       message.data.json
+¦   ¦   ¦       message.meta.json
+¦   ¦   ¦       policy.data.json
+¦   ¦   ¦       policy.meta.json
+¦   ¦   ¦       utils.data.json
+¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦       _policybase.data.json
+¦   ¦   ¦       _policybase.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---git
+¦   ¦   ¦   ¦   cmd.data.json
+¦   ¦   ¦   ¦   cmd.meta.json
+¦   ¦   ¦   ¦   compat.data.json
+¦   ¦   ¦   ¦   compat.meta.json
+¦   ¦   ¦   ¦   config.data.json
+¦   ¦   ¦   ¦   config.meta.json
+¦   ¦   ¦   ¦   db.data.json
+¦   ¦   ¦   ¦   db.meta.json
+¦   ¦   ¦   ¦   diff.data.json
+¦   ¦   ¦   ¦   diff.meta.json
+¦   ¦   ¦   ¦   exc.data.json
+¦   ¦   ¦   ¦   exc.meta.json
+¦   ¦   ¦   ¦   remote.data.json
+¦   ¦   ¦   ¦   remote.meta.json
+¦   ¦   ¦   ¦   types.data.json
+¦   ¦   ¦   ¦   types.meta.json
+¦   ¦   ¦   ¦   util.data.json
+¦   ¦   ¦   ¦   util.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---index
+¦   ¦   ¦   ¦       base.data.json
+¦   ¦   ¦   ¦       base.meta.json
+¦   ¦   ¦   ¦       fun.data.json
+¦   ¦   ¦   ¦       fun.meta.json
+¦   ¦   ¦   ¦       typ.data.json
+¦   ¦   ¦   ¦       typ.meta.json
+¦   ¦   ¦   ¦       util.data.json
+¦   ¦   ¦   ¦       util.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---objects
+¦   ¦   ¦   ¦   ¦   base.data.json
+¦   ¦   ¦   ¦   ¦   base.meta.json
+¦   ¦   ¦   ¦   ¦   blob.data.json
+¦   ¦   ¦   ¦   ¦   blob.meta.json
+¦   ¦   ¦   ¦   ¦   commit.data.json
+¦   ¦   ¦   ¦   ¦   commit.meta.json
+¦   ¦   ¦   ¦   ¦   fun.data.json
+¦   ¦   ¦   ¦   ¦   fun.meta.json
+¦   ¦   ¦   ¦   ¦   tag.data.json
+¦   ¦   ¦   ¦   ¦   tag.meta.json
+¦   ¦   ¦   ¦   ¦   tree.data.json
+¦   ¦   ¦   ¦   ¦   tree.meta.json
+¦   ¦   ¦   ¦   ¦   util.data.json
+¦   ¦   ¦   ¦   ¦   util.meta.json
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---submodule
+¦   ¦   ¦   ¦           base.data.json
+¦   ¦   ¦   ¦           base.meta.json
+¦   ¦   ¦   ¦           root.data.json
+¦   ¦   ¦   ¦           root.meta.json
+¦   ¦   ¦   ¦           util.data.json
+¦   ¦   ¦   ¦           util.meta.json
+¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---refs
+¦   ¦   ¦   ¦       head.data.json
+¦   ¦   ¦   ¦       head.meta.json
+¦   ¦   ¦   ¦       log.data.json
+¦   ¦   ¦   ¦       log.meta.json
+¦   ¦   ¦   ¦       reference.data.json
+¦   ¦   ¦   ¦       reference.meta.json
+¦   ¦   ¦   ¦       remote.data.json
+¦   ¦   ¦   ¦       remote.meta.json
+¦   ¦   ¦   ¦       symbolic.data.json
+¦   ¦   ¦   ¦       symbolic.meta.json
+¦   ¦   ¦   ¦       tag.data.json
+¦   ¦   ¦   ¦       tag.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---repo
+¦   ¦   ¦           base.data.json
+¦   ¦   ¦           base.meta.json
+¦   ¦   ¦           fun.data.json
+¦   ¦   ¦           fun.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---html
+¦   ¦   ¦       entities.data.json
+¦   ¦   ¦       entities.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---http
+¦   ¦   ¦       client.data.json
+¦   ¦   ¦       client.meta.json
+¦   ¦   ¦       cookiejar.data.json
+¦   ¦   ¦       cookiejar.meta.json
+¦   ¦   ¦       cookies.data.json
+¦   ¦   ¦       cookies.meta.json
+¦   ¦   ¦       server.data.json
+¦   ¦   ¦       server.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---importlib
+¦   ¦   ¦   ¦   abc.data.json
+¦   ¦   ¦   ¦   abc.meta.json
+¦   ¦   ¦   ¦   machinery.data.json
+¦   ¦   ¦   ¦   machinery.meta.json
+¦   ¦   ¦   ¦   readers.data.json
+¦   ¦   ¦   ¦   readers.meta.json
+¦   ¦   ¦   ¦   util.data.json
+¦   ¦   ¦   ¦   util.meta.json
+¦   ¦   ¦   ¦   _abc.data.json
+¦   ¦   ¦   ¦   _abc.meta.json
+¦   ¦   ¦   ¦   _bootstrap.data.json
+¦   ¦   ¦   ¦   _bootstrap.meta.json
+¦   ¦   ¦   ¦   _bootstrap_external.data.json
+¦   ¦   ¦   ¦   _bootstrap_external.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---metadata
+¦   ¦   ¦   ¦       _meta.data.json
+¦   ¦   ¦   ¦       _meta.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---resources
+¦   ¦   ¦           abc.data.json
+¦   ¦   ¦           abc.meta.json
+¦   ¦   ¦           _common.data.json
+¦   ¦   ¦           _common.meta.json
+¦   ¦   ¦           _functional.data.json
+¦   ¦   ¦           _functional.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---infrastructure
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---repositories
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---jinja2
+¦   ¦   ¦       async_utils.data.json
+¦   ¦   ¦       async_utils.meta.json
+¦   ¦   ¦       bccache.data.json
+¦   ¦   ¦       bccache.meta.json
+¦   ¦   ¦       compiler.data.json
+¦   ¦   ¦       compiler.meta.json
+¦   ¦   ¦       debug.data.json
+¦   ¦   ¦       debug.meta.json
+¦   ¦   ¦       defaults.data.json
+¦   ¦   ¦       defaults.meta.json
+¦   ¦   ¦       environment.data.json
+¦   ¦   ¦       environment.meta.json
+¦   ¦   ¦       exceptions.data.json
+¦   ¦   ¦       exceptions.meta.json
+¦   ¦   ¦       ext.data.json
+¦   ¦   ¦       ext.meta.json
+¦   ¦   ¦       filters.data.json
+¦   ¦   ¦       filters.meta.json
+¦   ¦   ¦       idtracking.data.json
+¦   ¦   ¦       idtracking.meta.json
+¦   ¦   ¦       lexer.data.json
+¦   ¦   ¦       lexer.meta.json
+¦   ¦   ¦       loaders.data.json
+¦   ¦   ¦       loaders.meta.json
+¦   ¦   ¦       nodes.data.json
+¦   ¦   ¦       nodes.meta.json
+¦   ¦   ¦       optimizer.data.json
+¦   ¦   ¦       optimizer.meta.json
+¦   ¦   ¦       parser.data.json
+¦   ¦   ¦       parser.meta.json
+¦   ¦   ¦       runtime.data.json
+¦   ¦   ¦       runtime.meta.json
+¦   ¦   ¦       sandbox.data.json
+¦   ¦   ¦       sandbox.meta.json
+¦   ¦   ¦       tests.data.json
+¦   ¦   ¦       tests.meta.json
+¦   ¦   ¦       utils.data.json
+¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦       visitor.data.json
+¦   ¦   ¦       visitor.meta.json
+¦   ¦   ¦       _identifier.data.json
+¦   ¦   ¦       _identifier.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---json
+¦   ¦   ¦       decoder.data.json
+¦   ¦   ¦       decoder.meta.json
+¦   ¦   ¦       encoder.data.json
+¦   ¦   ¦       encoder.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---logging
+¦   ¦   ¦       handlers.data.json
+¦   ¦   ¦       handlers.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---markupsafe
+¦   ¦   ¦       _native.data.json
+¦   ¦   ¦       _native.meta.json
+¦   ¦   ¦       _speedups.data.json
+¦   ¦   ¦       _speedups.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---matplotlib
+¦   ¦   ¦   ¦   artist.data.json
+¦   ¦   ¦   ¦   artist.meta.json
+¦   ¦   ¦   ¦   axis.data.json
+¦   ¦   ¦   ¦   axis.meta.json
+¦   ¦   ¦   ¦   backend_bases.data.json
+¦   ¦   ¦   ¦   backend_bases.meta.json
+¦   ¦   ¦   ¦   backend_managers.data.json
+¦   ¦   ¦   ¦   backend_managers.meta.json
+¦   ¦   ¦   ¦   backend_tools.data.json
+¦   ¦   ¦   ¦   backend_tools.meta.json
+¦   ¦   ¦   ¦   bezier.data.json
+¦   ¦   ¦   ¦   bezier.meta.json
+¦   ¦   ¦   ¦   cbook.data.json
+¦   ¦   ¦   ¦   cbook.meta.json
+¦   ¦   ¦   ¦   cm.data.json
+¦   ¦   ¦   ¦   cm.meta.json
+¦   ¦   ¦   ¦   collections.data.json
+¦   ¦   ¦   ¦   collections.meta.json
+¦   ¦   ¦   ¦   colorbar.data.json
+¦   ¦   ¦   ¦   colorbar.meta.json
+¦   ¦   ¦   ¦   colorizer.data.json
+¦   ¦   ¦   ¦   colorizer.meta.json
+¦   ¦   ¦   ¦   colors.data.json
+¦   ¦   ¦   ¦   colors.meta.json
+¦   ¦   ¦   ¦   container.data.json
+¦   ¦   ¦   ¦   container.meta.json
+¦   ¦   ¦   ¦   contour.data.json
+¦   ¦   ¦   ¦   contour.meta.json
+¦   ¦   ¦   ¦   figure.data.json
+¦   ¦   ¦   ¦   figure.meta.json
+¦   ¦   ¦   ¦   font_manager.data.json
+¦   ¦   ¦   ¦   font_manager.meta.json
+¦   ¦   ¦   ¦   ft2font.data.json
+¦   ¦   ¦   ¦   ft2font.meta.json
+¦   ¦   ¦   ¦   gridspec.data.json
+¦   ¦   ¦   ¦   gridspec.meta.json
+¦   ¦   ¦   ¦   image.data.json
+¦   ¦   ¦   ¦   image.meta.json
+¦   ¦   ¦   ¦   inset.data.json
+¦   ¦   ¦   ¦   inset.meta.json
+¦   ¦   ¦   ¦   layout_engine.data.json
+¦   ¦   ¦   ¦   layout_engine.meta.json
+¦   ¦   ¦   ¦   legend.data.json
+¦   ¦   ¦   ¦   legend.meta.json
+¦   ¦   ¦   ¦   legend_handler.data.json
+¦   ¦   ¦   ¦   legend_handler.meta.json
+¦   ¦   ¦   ¦   lines.data.json
+¦   ¦   ¦   ¦   lines.meta.json
+¦   ¦   ¦   ¦   markers.data.json
+¦   ¦   ¦   ¦   markers.meta.json
+¦   ¦   ¦   ¦   mathtext.data.json
+¦   ¦   ¦   ¦   mathtext.meta.json
+¦   ¦   ¦   ¦   mlab.data.json
+¦   ¦   ¦   ¦   mlab.meta.json
+¦   ¦   ¦   ¦   offsetbox.data.json
+¦   ¦   ¦   ¦   offsetbox.meta.json
+¦   ¦   ¦   ¦   patches.data.json
+¦   ¦   ¦   ¦   patches.meta.json
+¦   ¦   ¦   ¦   path.data.json
+¦   ¦   ¦   ¦   path.meta.json
+¦   ¦   ¦   ¦   patheffects.data.json
+¦   ¦   ¦   ¦   patheffects.meta.json
+¦   ¦   ¦   ¦   quiver.data.json
+¦   ¦   ¦   ¦   quiver.meta.json
+¦   ¦   ¦   ¦   scale.data.json
+¦   ¦   ¦   ¦   scale.meta.json
+¦   ¦   ¦   ¦   spines.data.json
+¦   ¦   ¦   ¦   spines.meta.json
+¦   ¦   ¦   ¦   stackplot.data.json
+¦   ¦   ¦   ¦   stackplot.meta.json
+¦   ¦   ¦   ¦   streamplot.data.json
+¦   ¦   ¦   ¦   streamplot.meta.json
+¦   ¦   ¦   ¦   table.data.json
+¦   ¦   ¦   ¦   table.meta.json
+¦   ¦   ¦   ¦   texmanager.data.json
+¦   ¦   ¦   ¦   texmanager.meta.json
+¦   ¦   ¦   ¦   text.data.json
+¦   ¦   ¦   ¦   text.meta.json
+¦   ¦   ¦   ¦   textpath.data.json
+¦   ¦   ¦   ¦   textpath.meta.json
+¦   ¦   ¦   ¦   ticker.data.json
+¦   ¦   ¦   ¦   ticker.meta.json
+¦   ¦   ¦   ¦   transforms.data.json
+¦   ¦   ¦   ¦   transforms.meta.json
+¦   ¦   ¦   ¦   typing.data.json
+¦   ¦   ¦   ¦   typing.meta.json
+¦   ¦   ¦   ¦   units.data.json
+¦   ¦   ¦   ¦   units.meta.json
+¦   ¦   ¦   ¦   widgets.data.json
+¦   ¦   ¦   ¦   widgets.meta.json
+¦   ¦   ¦   ¦   _afm.data.json
+¦   ¦   ¦   ¦   _afm.meta.json
+¦   ¦   ¦   ¦   _enums.data.json
+¦   ¦   ¦   ¦   _enums.meta.json
+¦   ¦   ¦   ¦   _mathtext.data.json
+¦   ¦   ¦   ¦   _mathtext.meta.json
+¦   ¦   ¦   ¦   _mathtext_data.data.json
+¦   ¦   ¦   ¦   _mathtext_data.meta.json
+¦   ¦   ¦   ¦   _tri.data.json
+¦   ¦   ¦   ¦   _tri.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---axes
+¦   ¦   ¦   ¦       _axes.data.json
+¦   ¦   ¦   ¦       _axes.meta.json
+¦   ¦   ¦   ¦       _base.data.json
+¦   ¦   ¦   ¦       _base.meta.json
+¦   ¦   ¦   ¦       _secondary_axes.data.json
+¦   ¦   ¦   ¦       _secondary_axes.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---projections
+¦   ¦   ¦   ¦       geo.data.json
+¦   ¦   ¦   ¦       geo.meta.json
+¦   ¦   ¦   ¦       polar.data.json
+¦   ¦   ¦   ¦       polar.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tri
+¦   ¦   ¦   ¦       _triangulation.data.json
+¦   ¦   ¦   ¦       _triangulation.meta.json
+¦   ¦   ¦   ¦       _tricontour.data.json
+¦   ¦   ¦   ¦       _tricontour.meta.json
+¦   ¦   ¦   ¦       _trifinder.data.json
+¦   ¦   ¦   ¦       _trifinder.meta.json
+¦   ¦   ¦   ¦       _triinterpolate.data.json
+¦   ¦   ¦   ¦       _triinterpolate.meta.json
+¦   ¦   ¦   ¦       _tripcolor.data.json
+¦   ¦   ¦   ¦       _tripcolor.meta.json
+¦   ¦   ¦   ¦       _triplot.data.json
+¦   ¦   ¦   ¦       _triplot.meta.json
+¦   ¦   ¦   ¦       _trirefine.data.json
+¦   ¦   ¦   ¦       _trirefine.meta.json
+¦   ¦   ¦   ¦       _tritools.data.json
+¦   ¦   ¦   ¦       _tritools.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_api
+¦   ¦   ¦           deprecation.data.json
+¦   ¦   ¦           deprecation.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---multiprocessing
+¦   ¦   ¦       connection.data.json
+¦   ¦   ¦       connection.meta.json
+¦   ¦   ¦       context.data.json
+¦   ¦   ¦       context.meta.json
+¦   ¦   ¦       managers.data.json
+¦   ¦   ¦       managers.meta.json
+¦   ¦   ¦       pool.data.json
+¦   ¦   ¦       pool.meta.json
+¦   ¦   ¦       popen_fork.data.json
+¦   ¦   ¦       popen_fork.meta.json
+¦   ¦   ¦       popen_forkserver.data.json
+¦   ¦   ¦       popen_forkserver.meta.json
+¦   ¦   ¦       popen_spawn_posix.data.json
+¦   ¦   ¦       popen_spawn_posix.meta.json
+¦   ¦   ¦       popen_spawn_win32.data.json
+¦   ¦   ¦       popen_spawn_win32.meta.json
+¦   ¦   ¦       process.data.json
+¦   ¦   ¦       process.meta.json
+¦   ¦   ¦       queues.data.json
+¦   ¦   ¦       queues.meta.json
+¦   ¦   ¦       reduction.data.json
+¦   ¦   ¦       reduction.meta.json
+¦   ¦   ¦       sharedctypes.data.json
+¦   ¦   ¦       sharedctypes.meta.json
+¦   ¦   ¦       shared_memory.data.json
+¦   ¦   ¦       shared_memory.meta.json
+¦   ¦   ¦       spawn.data.json
+¦   ¦   ¦       spawn.meta.json
+¦   ¦   ¦       synchronize.data.json
+¦   ¦   ¦       synchronize.meta.json
+¦   ¦   ¦       util.data.json
+¦   ¦   ¦       util.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---narwhals
+¦   ¦   ¦   ¦   dataframe.data.json
+¦   ¦   ¦   ¦   dataframe.meta.json
+¦   ¦   ¦   ¦   dependencies.data.json
+¦   ¦   ¦   ¦   dependencies.meta.json
+¦   ¦   ¦   ¦   dtypes.data.json
+¦   ¦   ¦   ¦   dtypes.meta.json
+¦   ¦   ¦   ¦   exceptions.data.json
+¦   ¦   ¦   ¦   exceptions.meta.json
+¦   ¦   ¦   ¦   expr.data.json
+¦   ¦   ¦   ¦   expr.meta.json
+¦   ¦   ¦   ¦   expr_cat.data.json
+¦   ¦   ¦   ¦   expr_cat.meta.json
+¦   ¦   ¦   ¦   expr_dt.data.json
+¦   ¦   ¦   ¦   expr_dt.meta.json
+¦   ¦   ¦   ¦   expr_list.data.json
+¦   ¦   ¦   ¦   expr_list.meta.json
+¦   ¦   ¦   ¦   expr_name.data.json
+¦   ¦   ¦   ¦   expr_name.meta.json
+¦   ¦   ¦   ¦   expr_str.data.json
+¦   ¦   ¦   ¦   expr_str.meta.json
+¦   ¦   ¦   ¦   expr_struct.data.json
+¦   ¦   ¦   ¦   expr_struct.meta.json
+¦   ¦   ¦   ¦   functions.data.json
+¦   ¦   ¦   ¦   functions.meta.json
+¦   ¦   ¦   ¦   group_by.data.json
+¦   ¦   ¦   ¦   group_by.meta.json
+¦   ¦   ¦   ¦   plugins.data.json
+¦   ¦   ¦   ¦   plugins.meta.json
+¦   ¦   ¦   ¦   schema.data.json
+¦   ¦   ¦   ¦   schema.meta.json
+¦   ¦   ¦   ¦   selectors.data.json
+¦   ¦   ¦   ¦   selectors.meta.json
+¦   ¦   ¦   ¦   series.data.json
+¦   ¦   ¦   ¦   series.meta.json
+¦   ¦   ¦   ¦   series_cat.data.json
+¦   ¦   ¦   ¦   series_cat.meta.json
+¦   ¦   ¦   ¦   series_dt.data.json
+¦   ¦   ¦   ¦   series_dt.meta.json
+¦   ¦   ¦   ¦   series_list.data.json
+¦   ¦   ¦   ¦   series_list.meta.json
+¦   ¦   ¦   ¦   series_str.data.json
+¦   ¦   ¦   ¦   series_str.meta.json
+¦   ¦   ¦   ¦   series_struct.data.json
+¦   ¦   ¦   ¦   series_struct.meta.json
+¦   ¦   ¦   ¦   translate.data.json
+¦   ¦   ¦   ¦   translate.meta.json
+¦   ¦   ¦   ¦   typing.data.json
+¦   ¦   ¦   ¦   typing.meta.json
+¦   ¦   ¦   ¦   utils.data.json
+¦   ¦   ¦   ¦   utils.meta.json
+¦   ¦   ¦   ¦   _constants.data.json
+¦   ¦   ¦   ¦   _constants.meta.json
+¦   ¦   ¦   ¦   _duration.data.json
+¦   ¦   ¦   ¦   _duration.meta.json
+¦   ¦   ¦   ¦   _enum.data.json
+¦   ¦   ¦   ¦   _enum.meta.json
+¦   ¦   ¦   ¦   _exceptions.data.json
+¦   ¦   ¦   ¦   _exceptions.meta.json
+¦   ¦   ¦   ¦   _expression_parsing.data.json
+¦   ¦   ¦   ¦   _expression_parsing.meta.json
+¦   ¦   ¦   ¦   _namespace.data.json
+¦   ¦   ¦   ¦   _namespace.meta.json
+¦   ¦   ¦   ¦   _native.data.json
+¦   ¦   ¦   ¦   _native.meta.json
+¦   ¦   ¦   ¦   _translate.data.json
+¦   ¦   ¦   ¦   _translate.meta.json
+¦   ¦   ¦   ¦   _typing.data.json
+¦   ¦   ¦   ¦   _typing.meta.json
+¦   ¦   ¦   ¦   _typing_compat.data.json
+¦   ¦   ¦   ¦   _typing_compat.meta.json
+¦   ¦   ¦   ¦   _utils.data.json
+¦   ¦   ¦   ¦   _utils.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---stable
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---v1
+¦   ¦   ¦   ¦   ¦       dependencies.data.json
+¦   ¦   ¦   ¦   ¦       dependencies.meta.json
+¦   ¦   ¦   ¦   ¦       dtypes.data.json
+¦   ¦   ¦   ¦   ¦       dtypes.meta.json
+¦   ¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦   ¦       typing.data.json
+¦   ¦   ¦   ¦   ¦       typing.meta.json
+¦   ¦   ¦   ¦   ¦       _dtypes.data.json
+¦   ¦   ¦   ¦   ¦       _dtypes.meta.json
+¦   ¦   ¦   ¦   ¦       _namespace.data.json
+¦   ¦   ¦   ¦   ¦       _namespace.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---v2
+¦   ¦   ¦   ¦           dependencies.data.json
+¦   ¦   ¦   ¦           dependencies.meta.json
+¦   ¦   ¦   ¦           dtypes.data.json
+¦   ¦   ¦   ¦           dtypes.meta.json
+¦   ¦   ¦   ¦           selectors.data.json
+¦   ¦   ¦   ¦           selectors.meta.json
+¦   ¦   ¦   ¦           _namespace.data.json
+¦   ¦   ¦   ¦           _namespace.meta.json
+¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---_arrow
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       series.data.json
+¦   ¦   ¦   ¦       series.meta.json
+¦   ¦   ¦   ¦       series_cat.data.json
+¦   ¦   ¦   ¦       series_cat.meta.json
+¦   ¦   ¦   ¦       series_dt.data.json
+¦   ¦   ¦   ¦       series_dt.meta.json
+¦   ¦   ¦   ¦       series_list.data.json
+¦   ¦   ¦   ¦       series_list.meta.json
+¦   ¦   ¦   ¦       series_str.data.json
+¦   ¦   ¦   ¦       series_str.meta.json
+¦   ¦   ¦   ¦       series_struct.data.json
+¦   ¦   ¦   ¦       series_struct.meta.json
+¦   ¦   ¦   ¦       typing.data.json
+¦   ¦   ¦   ¦       typing.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_compliant
+¦   ¦   ¦   ¦       any_namespace.data.json
+¦   ¦   ¦   ¦       any_namespace.meta.json
+¦   ¦   ¦   ¦       column.data.json
+¦   ¦   ¦   ¦       column.meta.json
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       series.data.json
+¦   ¦   ¦   ¦       series.meta.json
+¦   ¦   ¦   ¦       typing.data.json
+¦   ¦   ¦   ¦       typing.meta.json
+¦   ¦   ¦   ¦       window.data.json
+¦   ¦   ¦   ¦       window.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_dask
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       expr_dt.data.json
+¦   ¦   ¦   ¦       expr_dt.meta.json
+¦   ¦   ¦   ¦       expr_str.data.json
+¦   ¦   ¦   ¦       expr_str.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_duckdb
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       expr_dt.data.json
+¦   ¦   ¦   ¦       expr_dt.meta.json
+¦   ¦   ¦   ¦       expr_list.data.json
+¦   ¦   ¦   ¦       expr_list.meta.json
+¦   ¦   ¦   ¦       expr_str.data.json
+¦   ¦   ¦   ¦       expr_str.meta.json
+¦   ¦   ¦   ¦       expr_struct.data.json
+¦   ¦   ¦   ¦       expr_struct.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       series.data.json
+¦   ¦   ¦   ¦       series.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_ibis
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       expr_dt.data.json
+¦   ¦   ¦   ¦       expr_dt.meta.json
+¦   ¦   ¦   ¦       expr_list.data.json
+¦   ¦   ¦   ¦       expr_list.meta.json
+¦   ¦   ¦   ¦       expr_str.data.json
+¦   ¦   ¦   ¦       expr_str.meta.json
+¦   ¦   ¦   ¦       expr_struct.data.json
+¦   ¦   ¦   ¦       expr_struct.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       series.data.json
+¦   ¦   ¦   ¦       series.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_pandas_like
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       series.data.json
+¦   ¦   ¦   ¦       series.meta.json
+¦   ¦   ¦   ¦       series_cat.data.json
+¦   ¦   ¦   ¦       series_cat.meta.json
+¦   ¦   ¦   ¦       series_dt.data.json
+¦   ¦   ¦   ¦       series_dt.meta.json
+¦   ¦   ¦   ¦       series_list.data.json
+¦   ¦   ¦   ¦       series_list.meta.json
+¦   ¦   ¦   ¦       series_str.data.json
+¦   ¦   ¦   ¦       series_str.meta.json
+¦   ¦   ¦   ¦       series_struct.data.json
+¦   ¦   ¦   ¦       series_struct.meta.json
+¦   ¦   ¦   ¦       typing.data.json
+¦   ¦   ¦   ¦       typing.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_polars
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       series.data.json
+¦   ¦   ¦   ¦       series.meta.json
+¦   ¦   ¦   ¦       typing.data.json
+¦   ¦   ¦   ¦       typing.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_spark_like
+¦   ¦   ¦   ¦       dataframe.data.json
+¦   ¦   ¦   ¦       dataframe.meta.json
+¦   ¦   ¦   ¦       expr.data.json
+¦   ¦   ¦   ¦       expr.meta.json
+¦   ¦   ¦   ¦       expr_dt.data.json
+¦   ¦   ¦   ¦       expr_dt.meta.json
+¦   ¦   ¦   ¦       expr_list.data.json
+¦   ¦   ¦   ¦       expr_list.meta.json
+¦   ¦   ¦   ¦       expr_str.data.json
+¦   ¦   ¦   ¦       expr_str.meta.json
+¦   ¦   ¦   ¦       expr_struct.data.json
+¦   ¦   ¦   ¦       expr_struct.meta.json
+¦   ¦   ¦   ¦       group_by.data.json
+¦   ¦   ¦   ¦       group_by.meta.json
+¦   ¦   ¦   ¦       namespace.data.json
+¦   ¦   ¦   ¦       namespace.meta.json
+¦   ¦   ¦   ¦       selectors.data.json
+¦   ¦   ¦   ¦       selectors.meta.json
+¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_sql
+¦   ¦   ¦           dataframe.data.json
+¦   ¦   ¦           dataframe.meta.json
+¦   ¦   ¦           expr.data.json
+¦   ¦   ¦           expr.meta.json
+¦   ¦   ¦           expr_dt.data.json
+¦   ¦   ¦           expr_dt.meta.json
+¦   ¦   ¦           expr_str.data.json
+¦   ¦   ¦           expr_str.meta.json
+¦   ¦   ¦           group_by.data.json
+¦   ¦   ¦           group_by.meta.json
+¦   ¦   ¦           namespace.data.json
+¦   ¦   ¦           namespace.meta.json
+¦   ¦   ¦           typing.data.json
+¦   ¦   ¦           typing.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---numpy
+¦   ¦   ¦   ¦   dtypes.data.json
+¦   ¦   ¦   ¦   dtypes.meta.json
+¦   ¦   ¦   ¦   exceptions.data.json
+¦   ¦   ¦   ¦   exceptions.meta.json
+¦   ¦   ¦   ¦   matlib.data.json
+¦   ¦   ¦   ¦   matlib.meta.json
+¦   ¦   ¦   ¦   version.data.json
+¦   ¦   ¦   ¦   version.meta.json
+¦   ¦   ¦   ¦   _array_api_info.data.json
+¦   ¦   ¦   ¦   _array_api_info.meta.json
+¦   ¦   ¦   ¦   _expired_attrs_2_0.data.json
+¦   ¦   ¦   ¦   _expired_attrs_2_0.meta.json
+¦   ¦   ¦   ¦   _globals.data.json
+¦   ¦   ¦   ¦   _globals.meta.json
+¦   ¦   ¦   ¦   _pytesttester.data.json
+¦   ¦   ¦   ¦   _pytesttester.meta.json
+¦   ¦   ¦   ¦   __config__.data.json
+¦   ¦   ¦   ¦   __config__.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---char
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---core
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---ctypeslib
+¦   ¦   ¦   ¦       _ctypeslib.data.json
+¦   ¦   ¦   ¦       _ctypeslib.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---f2py
+¦   ¦   ¦   ¦       auxfuncs.data.json
+¦   ¦   ¦   ¦       auxfuncs.meta.json
+¦   ¦   ¦   ¦       cfuncs.data.json
+¦   ¦   ¦   ¦       cfuncs.meta.json
+¦   ¦   ¦   ¦       f2py2e.data.json
+¦   ¦   ¦   ¦       f2py2e.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       __version__.data.json
+¦   ¦   ¦   ¦       __version__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---fft
+¦   ¦   ¦   ¦       _helper.data.json
+¦   ¦   ¦   ¦       _helper.meta.json
+¦   ¦   ¦   ¦       _pocketfft.data.json
+¦   ¦   ¦   ¦       _pocketfft.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       array_utils.data.json
+¦   ¦   ¦   ¦       array_utils.meta.json
+¦   ¦   ¦   ¦       format.data.json
+¦   ¦   ¦   ¦       format.meta.json
+¦   ¦   ¦   ¦       introspect.data.json
+¦   ¦   ¦   ¦       introspect.meta.json
+¦   ¦   ¦   ¦       mixins.data.json
+¦   ¦   ¦   ¦       mixins.meta.json
+¦   ¦   ¦   ¦       npyio.data.json
+¦   ¦   ¦   ¦       npyio.meta.json
+¦   ¦   ¦   ¦       scimath.data.json
+¦   ¦   ¦   ¦       scimath.meta.json
+¦   ¦   ¦   ¦       stride_tricks.data.json
+¦   ¦   ¦   ¦       stride_tricks.meta.json
+¦   ¦   ¦   ¦       _arraypad_impl.data.json
+¦   ¦   ¦   ¦       _arraypad_impl.meta.json
+¦   ¦   ¦   ¦       _arraysetops_impl.data.json
+¦   ¦   ¦   ¦       _arraysetops_impl.meta.json
+¦   ¦   ¦   ¦       _arrayterator_impl.data.json
+¦   ¦   ¦   ¦       _arrayterator_impl.meta.json
+¦   ¦   ¦   ¦       _array_utils_impl.data.json
+¦   ¦   ¦   ¦       _array_utils_impl.meta.json
+¦   ¦   ¦   ¦       _datasource.data.json
+¦   ¦   ¦   ¦       _datasource.meta.json
+¦   ¦   ¦   ¦       _format_impl.data.json
+¦   ¦   ¦   ¦       _format_impl.meta.json
+¦   ¦   ¦   ¦       _function_base_impl.data.json
+¦   ¦   ¦   ¦       _function_base_impl.meta.json
+¦   ¦   ¦   ¦       _histograms_impl.data.json
+¦   ¦   ¦   ¦       _histograms_impl.meta.json
+¦   ¦   ¦   ¦       _index_tricks_impl.data.json
+¦   ¦   ¦   ¦       _index_tricks_impl.meta.json
+¦   ¦   ¦   ¦       _iotools.data.json
+¦   ¦   ¦   ¦       _iotools.meta.json
+¦   ¦   ¦   ¦       _nanfunctions_impl.data.json
+¦   ¦   ¦   ¦       _nanfunctions_impl.meta.json
+¦   ¦   ¦   ¦       _npyio_impl.data.json
+¦   ¦   ¦   ¦       _npyio_impl.meta.json
+¦   ¦   ¦   ¦       _polynomial_impl.data.json
+¦   ¦   ¦   ¦       _polynomial_impl.meta.json
+¦   ¦   ¦   ¦       _scimath_impl.data.json
+¦   ¦   ¦   ¦       _scimath_impl.meta.json
+¦   ¦   ¦   ¦       _shape_base_impl.data.json
+¦   ¦   ¦   ¦       _shape_base_impl.meta.json
+¦   ¦   ¦   ¦       _stride_tricks_impl.data.json
+¦   ¦   ¦   ¦       _stride_tricks_impl.meta.json
+¦   ¦   ¦   ¦       _twodim_base_impl.data.json
+¦   ¦   ¦   ¦       _twodim_base_impl.meta.json
+¦   ¦   ¦   ¦       _type_check_impl.data.json
+¦   ¦   ¦   ¦       _type_check_impl.meta.json
+¦   ¦   ¦   ¦       _ufunclike_impl.data.json
+¦   ¦   ¦   ¦       _ufunclike_impl.meta.json
+¦   ¦   ¦   ¦       _utils_impl.data.json
+¦   ¦   ¦   ¦       _utils_impl.meta.json
+¦   ¦   ¦   ¦       _version.data.json
+¦   ¦   ¦   ¦       _version.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---linalg
+¦   ¦   ¦   ¦       linalg.data.json
+¦   ¦   ¦   ¦       linalg.meta.json
+¦   ¦   ¦   ¦       _linalg.data.json
+¦   ¦   ¦   ¦       _linalg.meta.json
+¦   ¦   ¦   ¦       _umath_linalg.data.json
+¦   ¦   ¦   ¦       _umath_linalg.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---ma
+¦   ¦   ¦   ¦       core.data.json
+¦   ¦   ¦   ¦       core.meta.json
+¦   ¦   ¦   ¦       extras.data.json
+¦   ¦   ¦   ¦       extras.meta.json
+¦   ¦   ¦   ¦       mrecords.data.json
+¦   ¦   ¦   ¦       mrecords.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---matrixlib
+¦   ¦   ¦   ¦       defmatrix.data.json
+¦   ¦   ¦   ¦       defmatrix.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---polynomial
+¦   ¦   ¦   ¦       chebyshev.data.json
+¦   ¦   ¦   ¦       chebyshev.meta.json
+¦   ¦   ¦   ¦       hermite.data.json
+¦   ¦   ¦   ¦       hermite.meta.json
+¦   ¦   ¦   ¦       hermite_e.data.json
+¦   ¦   ¦   ¦       hermite_e.meta.json
+¦   ¦   ¦   ¦       laguerre.data.json
+¦   ¦   ¦   ¦       laguerre.meta.json
+¦   ¦   ¦   ¦       legendre.data.json
+¦   ¦   ¦   ¦       legendre.meta.json
+¦   ¦   ¦   ¦       polynomial.data.json
+¦   ¦   ¦   ¦       polynomial.meta.json
+¦   ¦   ¦   ¦       polyutils.data.json
+¦   ¦   ¦   ¦       polyutils.meta.json
+¦   ¦   ¦   ¦       _polybase.data.json
+¦   ¦   ¦   ¦       _polybase.meta.json
+¦   ¦   ¦   ¦       _polytypes.data.json
+¦   ¦   ¦   ¦       _polytypes.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---random
+¦   ¦   ¦   ¦       bit_generator.data.json
+¦   ¦   ¦   ¦       bit_generator.meta.json
+¦   ¦   ¦   ¦       mtrand.data.json
+¦   ¦   ¦   ¦       mtrand.meta.json
+¦   ¦   ¦   ¦       _generator.data.json
+¦   ¦   ¦   ¦       _generator.meta.json
+¦   ¦   ¦   ¦       _mt19937.data.json
+¦   ¦   ¦   ¦       _mt19937.meta.json
+¦   ¦   ¦   ¦       _pcg64.data.json
+¦   ¦   ¦   ¦       _pcg64.meta.json
+¦   ¦   ¦   ¦       _philox.data.json
+¦   ¦   ¦   ¦       _philox.meta.json
+¦   ¦   ¦   ¦       _sfc64.data.json
+¦   ¦   ¦   ¦       _sfc64.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---rec
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---strings
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---testing
+¦   ¦   ¦   ¦   ¦   overrides.data.json
+¦   ¦   ¦   ¦   ¦   overrides.meta.json
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---_private
+¦   ¦   ¦   ¦           utils.data.json
+¦   ¦   ¦   ¦           utils.meta.json
+¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---typing
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_core
+¦   ¦   ¦   ¦       arrayprint.data.json
+¦   ¦   ¦   ¦       arrayprint.meta.json
+¦   ¦   ¦   ¦       defchararray.data.json
+¦   ¦   ¦   ¦       defchararray.meta.json
+¦   ¦   ¦   ¦       einsumfunc.data.json
+¦   ¦   ¦   ¦       einsumfunc.meta.json
+¦   ¦   ¦   ¦       fromnumeric.data.json
+¦   ¦   ¦   ¦       fromnumeric.meta.json
+¦   ¦   ¦   ¦       function_base.data.json
+¦   ¦   ¦   ¦       function_base.meta.json
+¦   ¦   ¦   ¦       multiarray.data.json
+¦   ¦   ¦   ¦       multiarray.meta.json
+¦   ¦   ¦   ¦       numeric.data.json
+¦   ¦   ¦   ¦       numeric.meta.json
+¦   ¦   ¦   ¦       numerictypes.data.json
+¦   ¦   ¦   ¦       numerictypes.meta.json
+¦   ¦   ¦   ¦       records.data.json
+¦   ¦   ¦   ¦       records.meta.json
+¦   ¦   ¦   ¦       shape_base.data.json
+¦   ¦   ¦   ¦       shape_base.meta.json
+¦   ¦   ¦   ¦       strings.data.json
+¦   ¦   ¦   ¦       strings.meta.json
+¦   ¦   ¦   ¦       _asarray.data.json
+¦   ¦   ¦   ¦       _asarray.meta.json
+¦   ¦   ¦   ¦       _internal.data.json
+¦   ¦   ¦   ¦       _internal.meta.json
+¦   ¦   ¦   ¦       _type_aliases.data.json
+¦   ¦   ¦   ¦       _type_aliases.meta.json
+¦   ¦   ¦   ¦       _ufunc_config.data.json
+¦   ¦   ¦   ¦       _ufunc_config.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---_typing
+¦   ¦   ¦           _add_docstring.data.json
+¦   ¦   ¦           _add_docstring.meta.json
+¦   ¦   ¦           _array_like.data.json
+¦   ¦   ¦           _array_like.meta.json
+¦   ¦   ¦           _char_codes.data.json
+¦   ¦   ¦           _char_codes.meta.json
+¦   ¦   ¦           _dtype_like.data.json
+¦   ¦   ¦           _dtype_like.meta.json
+¦   ¦   ¦           _extended_precision.data.json
+¦   ¦   ¦           _extended_precision.meta.json
+¦   ¦   ¦           _nbit.data.json
+¦   ¦   ¦           _nbit.meta.json
+¦   ¦   ¦           _nbit_base.data.json
+¦   ¦   ¦           _nbit_base.meta.json
+¦   ¦   ¦           _nested_sequence.data.json
+¦   ¦   ¦           _nested_sequence.meta.json
+¦   ¦   ¦           _scalars.data.json
+¦   ¦   ¦           _scalars.meta.json
+¦   ¦   ¦           _shape.data.json
+¦   ¦   ¦           _shape.meta.json
+¦   ¦   ¦           _ufunc.data.json
+¦   ¦   ¦           _ufunc.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---os
+¦   ¦   ¦       path.data.json
+¦   ¦   ¦       path.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---packaging
+¦   ¦   ¦       tags.data.json
+¦   ¦   ¦       tags.meta.json
+¦   ¦   ¦       utils.data.json
+¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦       version.data.json
+¦   ¦   ¦       version.meta.json
+¦   ¦   ¦       _elffile.data.json
+¦   ¦   ¦       _elffile.meta.json
+¦   ¦   ¦       _manylinux.data.json
+¦   ¦   ¦       _manylinux.meta.json
+¦   ¦   ¦       _musllinux.data.json
+¦   ¦   ¦       _musllinux.meta.json
+¦   ¦   ¦       _structures.data.json
+¦   ¦   ¦       _structures.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---PIL
+¦   ¦   ¦       ExifTags.data.json
+¦   ¦   ¦       ExifTags.meta.json
+¦   ¦   ¦       GifImagePlugin.data.json
+¦   ¦   ¦       GifImagePlugin.meta.json
+¦   ¦   ¦       GimpGradientFile.data.json
+¦   ¦   ¦       GimpGradientFile.meta.json
+¦   ¦   ¦       GimpPaletteFile.data.json
+¦   ¦   ¦       GimpPaletteFile.meta.json
+¦   ¦   ¦       Image.data.json
+¦   ¦   ¦       Image.meta.json
+¦   ¦   ¦       ImageChops.data.json
+¦   ¦   ¦       ImageChops.meta.json
+¦   ¦   ¦       ImageCms.data.json
+¦   ¦   ¦       ImageCms.meta.json
+¦   ¦   ¦       ImageColor.data.json
+¦   ¦   ¦       ImageColor.meta.json
+¦   ¦   ¦       ImageFile.data.json
+¦   ¦   ¦       ImageFile.meta.json
+¦   ¦   ¦       ImageFilter.data.json
+¦   ¦   ¦       ImageFilter.meta.json
+¦   ¦   ¦       ImageMath.data.json
+¦   ¦   ¦       ImageMath.meta.json
+¦   ¦   ¦       ImageMode.data.json
+¦   ¦   ¦       ImageMode.meta.json
+¦   ¦   ¦       ImageOps.data.json
+¦   ¦   ¦       ImageOps.meta.json
+¦   ¦   ¦       ImagePalette.data.json
+¦   ¦   ¦       ImagePalette.meta.json
+¦   ¦   ¦       ImageQt.data.json
+¦   ¦   ¦       ImageQt.meta.json
+¦   ¦   ¦       ImageSequence.data.json
+¦   ¦   ¦       ImageSequence.meta.json
+¦   ¦   ¦       ImageShow.data.json
+¦   ¦   ¦       ImageShow.meta.json
+¦   ¦   ¦       PaletteFile.data.json
+¦   ¦   ¦       PaletteFile.meta.json
+¦   ¦   ¦       TiffImagePlugin.data.json
+¦   ¦   ¦       TiffImagePlugin.meta.json
+¦   ¦   ¦       TiffTags.data.json
+¦   ¦   ¦       TiffTags.meta.json
+¦   ¦   ¦       _binary.data.json
+¦   ¦   ¦       _binary.meta.json
+¦   ¦   ¦       _deprecate.data.json
+¦   ¦   ¦       _deprecate.meta.json
+¦   ¦   ¦       _imaging.data.json
+¦   ¦   ¦       _imaging.meta.json
+¦   ¦   ¦       _imagingcms.data.json
+¦   ¦   ¦       _imagingcms.meta.json
+¦   ¦   ¦       _imagingmath.data.json
+¦   ¦   ¦       _imagingmath.meta.json
+¦   ¦   ¦       _typing.data.json
+¦   ¦   ¦       _typing.meta.json
+¦   ¦   ¦       _util.data.json
+¦   ¦   ¦       _util.meta.json
+¦   ¦   ¦       _version.data.json
+¦   ¦   ¦       _version.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---pyparsing
+¦   ¦   ¦   ¦   actions.data.json
+¦   ¦   ¦   ¦   actions.meta.json
+¦   ¦   ¦   ¦   common.data.json
+¦   ¦   ¦   ¦   common.meta.json
+¦   ¦   ¦   ¦   core.data.json
+¦   ¦   ¦   ¦   core.meta.json
+¦   ¦   ¦   ¦   exceptions.data.json
+¦   ¦   ¦   ¦   exceptions.meta.json
+¦   ¦   ¦   ¦   helpers.data.json
+¦   ¦   ¦   ¦   helpers.meta.json
+¦   ¦   ¦   ¦   results.data.json
+¦   ¦   ¦   ¦   results.meta.json
+¦   ¦   ¦   ¦   testing.data.json
+¦   ¦   ¦   ¦   testing.meta.json
+¦   ¦   ¦   ¦   unicode.data.json
+¦   ¦   ¦   ¦   unicode.meta.json
+¦   ¦   ¦   ¦   util.data.json
+¦   ¦   ¦   ¦   util.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---diagram
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---referencing
+¦   ¦   ¦       exceptions.data.json
+¦   ¦   ¦       exceptions.meta.json
+¦   ¦   ¦       typing.data.json
+¦   ¦   ¦       typing.meta.json
+¦   ¦   ¦       _attrs.data.json
+¦   ¦   ¦       _attrs.meta.json
+¦   ¦   ¦       _core.data.json
+¦   ¦   ¦       _core.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---repositories
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---rpds
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---streamlit
+¦   ¦   ¦   ¦   auth_util.data.json
+¦   ¦   ¦   ¦   auth_util.meta.json
+¦   ¦   ¦   ¦   cli_util.data.json
+¦   ¦   ¦   ¦   cli_util.meta.json
+¦   ¦   ¦   ¦   column_config.data.json
+¦   ¦   ¦   ¦   column_config.meta.json
+¦   ¦   ¦   ¦   config.data.json
+¦   ¦   ¦   ¦   config.meta.json
+¦   ¦   ¦   ¦   config_option.data.json
+¦   ¦   ¦   ¦   config_option.meta.json
+¦   ¦   ¦   ¦   config_util.data.json
+¦   ¦   ¦   ¦   config_util.meta.json
+¦   ¦   ¦   ¦   cursor.data.json
+¦   ¦   ¦   ¦   cursor.meta.json
+¦   ¦   ¦   ¦   dataframe_util.data.json
+¦   ¦   ¦   ¦   dataframe_util.meta.json
+¦   ¦   ¦   ¦   delta_generator.data.json
+¦   ¦   ¦   ¦   delta_generator.meta.json
+¦   ¦   ¦   ¦   delta_generator_singletons.data.json
+¦   ¦   ¦   ¦   delta_generator_singletons.meta.json
+¦   ¦   ¦   ¦   deprecation_util.data.json
+¦   ¦   ¦   ¦   deprecation_util.meta.json
+¦   ¦   ¦   ¦   development.data.json
+¦   ¦   ¦   ¦   development.meta.json
+¦   ¦   ¦   ¦   env_util.data.json
+¦   ¦   ¦   ¦   env_util.meta.json
+¦   ¦   ¦   ¦   errors.data.json
+¦   ¦   ¦   ¦   errors.meta.json
+¦   ¦   ¦   ¦   error_util.data.json
+¦   ¦   ¦   ¦   error_util.meta.json
+¦   ¦   ¦   ¦   file_util.data.json
+¦   ¦   ¦   ¦   file_util.meta.json
+¦   ¦   ¦   ¦   git_util.data.json
+¦   ¦   ¦   ¦   git_util.meta.json
+¦   ¦   ¦   ¦   logger.data.json
+¦   ¦   ¦   ¦   logger.meta.json
+¦   ¦   ¦   ¦   source_util.data.json
+¦   ¦   ¦   ¦   source_util.meta.json
+¦   ¦   ¦   ¦   string_util.data.json
+¦   ¦   ¦   ¦   string_util.meta.json
+¦   ¦   ¦   ¦   time_util.data.json
+¦   ¦   ¦   ¦   time_util.meta.json
+¦   ¦   ¦   ¦   type_util.data.json
+¦   ¦   ¦   ¦   type_util.meta.json
+¦   ¦   ¦   ¦   url_util.data.json
+¦   ¦   ¦   ¦   url_util.meta.json
+¦   ¦   ¦   ¦   user_info.data.json
+¦   ¦   ¦   ¦   user_info.meta.json
+¦   ¦   ¦   ¦   util.data.json
+¦   ¦   ¦   ¦   util.meta.json
+¦   ¦   ¦   ¦   version.data.json
+¦   ¦   ¦   ¦   version.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---commands
+¦   ¦   ¦   ¦       echo.data.json
+¦   ¦   ¦   ¦       echo.meta.json
+¦   ¦   ¦   ¦       execution_control.data.json
+¦   ¦   ¦   ¦       execution_control.meta.json
+¦   ¦   ¦   ¦       experimental_query_params.data.json
+¦   ¦   ¦   ¦       experimental_query_params.meta.json
+¦   ¦   ¦   ¦       logo.data.json
+¦   ¦   ¦   ¦       logo.meta.json
+¦   ¦   ¦   ¦       navigation.data.json
+¦   ¦   ¦   ¦       navigation.meta.json
+¦   ¦   ¦   ¦       page_config.data.json
+¦   ¦   ¦   ¦       page_config.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   ¦       local_component_registry.data.json
+¦   ¦   ¦   ¦   ¦       local_component_registry.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   ¦   ¦       base_component_registry.data.json
+¦   ¦   ¦   ¦   ¦       base_component_registry.meta.json
+¦   ¦   ¦   ¦   ¦       base_custom_component.data.json
+¦   ¦   ¦   ¦   ¦       base_custom_component.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---v1
+¦   ¦   ¦   ¦   ¦       component_arrow.data.json
+¦   ¦   ¦   ¦   ¦       component_arrow.meta.json
+¦   ¦   ¦   ¦   ¦       component_registry.data.json
+¦   ¦   ¦   ¦   ¦       component_registry.meta.json
+¦   ¦   ¦   ¦   ¦       custom_component.data.json
+¦   ¦   ¦   ¦   ¦       custom_component.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---v2
+¦   ¦   ¦   ¦       ¦   component_definition_resolver.data.json
+¦   ¦   ¦   ¦       ¦   component_definition_resolver.meta.json
+¦   ¦   ¦   ¦       ¦   component_file_watcher.data.json
+¦   ¦   ¦   ¦       ¦   component_file_watcher.meta.json
+¦   ¦   ¦   ¦       ¦   component_manager.data.json
+¦   ¦   ¦   ¦       ¦   component_manager.meta.json
+¦   ¦   ¦   ¦       ¦   component_manifest_handler.data.json
+¦   ¦   ¦   ¦       ¦   component_manifest_handler.meta.json
+¦   ¦   ¦   ¦       ¦   component_path_utils.data.json
+¦   ¦   ¦   ¦       ¦   component_path_utils.meta.json
+¦   ¦   ¦   ¦       ¦   component_registry.data.json
+¦   ¦   ¦   ¦       ¦   component_registry.meta.json
+¦   ¦   ¦   ¦       ¦   get_bidi_component_manager.data.json
+¦   ¦   ¦   ¦       ¦   get_bidi_component_manager.meta.json
+¦   ¦   ¦   ¦       ¦   manifest_scanner.data.json
+¦   ¦   ¦   ¦       ¦   manifest_scanner.meta.json
+¦   ¦   ¦   ¦       ¦   presentation.data.json
+¦   ¦   ¦   ¦       ¦   presentation.meta.json
+¦   ¦   ¦   ¦       ¦   types.data.json
+¦   ¦   ¦   ¦       ¦   types.meta.json
+¦   ¦   ¦   ¦       ¦   __init__.data.json
+¦   ¦   ¦   ¦       ¦   __init__.meta.json
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---bidi_component
+¦   ¦   ¦   ¦               constants.data.json
+¦   ¦   ¦   ¦               constants.meta.json
+¦   ¦   ¦   ¦               main.data.json
+¦   ¦   ¦   ¦               main.meta.json
+¦   ¦   ¦   ¦               serialization.data.json
+¦   ¦   ¦   ¦               serialization.meta.json
+¦   ¦   ¦   ¦               state.data.json
+¦   ¦   ¦   ¦               state.meta.json
+¦   ¦   ¦   ¦               __init__.data.json
+¦   ¦   ¦   ¦               __init__.meta.json
+¦   ¦   ¦   ¦               
+¦   ¦   ¦   +---connections
+¦   ¦   ¦   ¦       base_connection.data.json
+¦   ¦   ¦   ¦       base_connection.meta.json
+¦   ¦   ¦   ¦       snowflake_connection.data.json
+¦   ¦   ¦   ¦       snowflake_connection.meta.json
+¦   ¦   ¦   ¦       snowpark_connection.data.json
+¦   ¦   ¦   ¦       snowpark_connection.meta.json
+¦   ¦   ¦   ¦       sql_connection.data.json
+¦   ¦   ¦   ¦       sql_connection.meta.json
+¦   ¦   ¦   ¦       util.data.json
+¦   ¦   ¦   ¦       util.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---elements
+¦   ¦   ¦   ¦   ¦   alert.data.json
+¦   ¦   ¦   ¦   ¦   alert.meta.json
+¦   ¦   ¦   ¦   ¦   arrow.data.json
+¦   ¦   ¦   ¦   ¦   arrow.meta.json
+¦   ¦   ¦   ¦   ¦   balloons.data.json
+¦   ¦   ¦   ¦   ¦   balloons.meta.json
+¦   ¦   ¦   ¦   ¦   bokeh_chart.data.json
+¦   ¦   ¦   ¦   ¦   bokeh_chart.meta.json
+¦   ¦   ¦   ¦   ¦   code.data.json
+¦   ¦   ¦   ¦   ¦   code.meta.json
+¦   ¦   ¦   ¦   ¦   deck_gl_json_chart.data.json
+¦   ¦   ¦   ¦   ¦   deck_gl_json_chart.meta.json
+¦   ¦   ¦   ¦   ¦   dialog_decorator.data.json
+¦   ¦   ¦   ¦   ¦   dialog_decorator.meta.json
+¦   ¦   ¦   ¦   ¦   doc_string.data.json
+¦   ¦   ¦   ¦   ¦   doc_string.meta.json
+¦   ¦   ¦   ¦   ¦   empty.data.json
+¦   ¦   ¦   ¦   ¦   empty.meta.json
+¦   ¦   ¦   ¦   ¦   exception.data.json
+¦   ¦   ¦   ¦   ¦   exception.meta.json
+¦   ¦   ¦   ¦   ¦   form.data.json
+¦   ¦   ¦   ¦   ¦   form.meta.json
+¦   ¦   ¦   ¦   ¦   graphviz_chart.data.json
+¦   ¦   ¦   ¦   ¦   graphviz_chart.meta.json
+¦   ¦   ¦   ¦   ¦   heading.data.json
+¦   ¦   ¦   ¦   ¦   heading.meta.json
+¦   ¦   ¦   ¦   ¦   html.data.json
+¦   ¦   ¦   ¦   ¦   html.meta.json
+¦   ¦   ¦   ¦   ¦   iframe.data.json
+¦   ¦   ¦   ¦   ¦   iframe.meta.json
+¦   ¦   ¦   ¦   ¦   image.data.json
+¦   ¦   ¦   ¦   ¦   image.meta.json
+¦   ¦   ¦   ¦   ¦   json.data.json
+¦   ¦   ¦   ¦   ¦   json.meta.json
+¦   ¦   ¦   ¦   ¦   layouts.data.json
+¦   ¦   ¦   ¦   ¦   layouts.meta.json
+¦   ¦   ¦   ¦   ¦   map.data.json
+¦   ¦   ¦   ¦   ¦   map.meta.json
+¦   ¦   ¦   ¦   ¦   markdown.data.json
+¦   ¦   ¦   ¦   ¦   markdown.meta.json
+¦   ¦   ¦   ¦   ¦   media.data.json
+¦   ¦   ¦   ¦   ¦   media.meta.json
+¦   ¦   ¦   ¦   ¦   metric.data.json
+¦   ¦   ¦   ¦   ¦   metric.meta.json
+¦   ¦   ¦   ¦   ¦   pdf.data.json
+¦   ¦   ¦   ¦   ¦   pdf.meta.json
+¦   ¦   ¦   ¦   ¦   plotly_chart.data.json
+¦   ¦   ¦   ¦   ¦   plotly_chart.meta.json
+¦   ¦   ¦   ¦   ¦   progress.data.json
+¦   ¦   ¦   ¦   ¦   progress.meta.json
+¦   ¦   ¦   ¦   ¦   pyplot.data.json
+¦   ¦   ¦   ¦   ¦   pyplot.meta.json
+¦   ¦   ¦   ¦   ¦   snow.data.json
+¦   ¦   ¦   ¦   ¦   snow.meta.json
+¦   ¦   ¦   ¦   ¦   space.data.json
+¦   ¦   ¦   ¦   ¦   space.meta.json
+¦   ¦   ¦   ¦   ¦   spinner.data.json
+¦   ¦   ¦   ¦   ¦   spinner.meta.json
+¦   ¦   ¦   ¦   ¦   text.data.json
+¦   ¦   ¦   ¦   ¦   text.meta.json
+¦   ¦   ¦   ¦   ¦   toast.data.json
+¦   ¦   ¦   ¦   ¦   toast.meta.json
+¦   ¦   ¦   ¦   ¦   vega_charts.data.json
+¦   ¦   ¦   ¦   ¦   vega_charts.meta.json
+¦   ¦   ¦   ¦   ¦   write.data.json
+¦   ¦   ¦   ¦   ¦   write.meta.json
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   ¦       built_in_chart_utils.data.json
+¦   ¦   ¦   ¦   ¦       built_in_chart_utils.meta.json
+¦   ¦   ¦   ¦   ¦       color_util.data.json
+¦   ¦   ¦   ¦   ¦       color_util.meta.json
+¦   ¦   ¦   ¦   ¦       column_config_utils.data.json
+¦   ¦   ¦   ¦   ¦       column_config_utils.meta.json
+¦   ¦   ¦   ¦   ¦       column_types.data.json
+¦   ¦   ¦   ¦   ¦       column_types.meta.json
+¦   ¦   ¦   ¦   ¦       dialog.data.json
+¦   ¦   ¦   ¦   ¦       dialog.meta.json
+¦   ¦   ¦   ¦   ¦       dicttools.data.json
+¦   ¦   ¦   ¦   ¦       dicttools.meta.json
+¦   ¦   ¦   ¦   ¦       file_uploader_utils.data.json
+¦   ¦   ¦   ¦   ¦       file_uploader_utils.meta.json
+¦   ¦   ¦   ¦   ¦       form_utils.data.json
+¦   ¦   ¦   ¦   ¦       form_utils.meta.json
+¦   ¦   ¦   ¦   ¦       image_utils.data.json
+¦   ¦   ¦   ¦   ¦       image_utils.meta.json
+¦   ¦   ¦   ¦   ¦       js_number.data.json
+¦   ¦   ¦   ¦   ¦       js_number.meta.json
+¦   ¦   ¦   ¦   ¦       layout_utils.data.json
+¦   ¦   ¦   ¦   ¦       layout_utils.meta.json
+¦   ¦   ¦   ¦   ¦       mutable_status_container.data.json
+¦   ¦   ¦   ¦   ¦       mutable_status_container.meta.json
+¦   ¦   ¦   ¦   ¦       options_selector_utils.data.json
+¦   ¦   ¦   ¦   ¦       options_selector_utils.meta.json
+¦   ¦   ¦   ¦   ¦       pandas_styler_utils.data.json
+¦   ¦   ¦   ¦   ¦       pandas_styler_utils.meta.json
+¦   ¦   ¦   ¦   ¦       policies.data.json
+¦   ¦   ¦   ¦   ¦       policies.meta.json
+¦   ¦   ¦   ¦   ¦       streamlit_plotly_theme.data.json
+¦   ¦   ¦   ¦   ¦       streamlit_plotly_theme.meta.json
+¦   ¦   ¦   ¦   ¦       subtitle_utils.data.json
+¦   ¦   ¦   ¦   ¦       subtitle_utils.meta.json
+¦   ¦   ¦   ¦   ¦       utils.data.json
+¦   ¦   ¦   ¦   ¦       utils.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---widgets
+¦   ¦   ¦   ¦           audio_input.data.json
+¦   ¦   ¦   ¦           audio_input.meta.json
+¦   ¦   ¦   ¦           button.data.json
+¦   ¦   ¦   ¦           button.meta.json
+¦   ¦   ¦   ¦           button_group.data.json
+¦   ¦   ¦   ¦           button_group.meta.json
+¦   ¦   ¦   ¦           camera_input.data.json
+¦   ¦   ¦   ¦           camera_input.meta.json
+¦   ¦   ¦   ¦           chat.data.json
+¦   ¦   ¦   ¦           chat.meta.json
+¦   ¦   ¦   ¦           checkbox.data.json
+¦   ¦   ¦   ¦           checkbox.meta.json
+¦   ¦   ¦   ¦           color_picker.data.json
+¦   ¦   ¦   ¦           color_picker.meta.json
+¦   ¦   ¦   ¦           data_editor.data.json
+¦   ¦   ¦   ¦           data_editor.meta.json
+¦   ¦   ¦   ¦           file_uploader.data.json
+¦   ¦   ¦   ¦           file_uploader.meta.json
+¦   ¦   ¦   ¦           multiselect.data.json
+¦   ¦   ¦   ¦           multiselect.meta.json
+¦   ¦   ¦   ¦           number_input.data.json
+¦   ¦   ¦   ¦           number_input.meta.json
+¦   ¦   ¦   ¦           radio.data.json
+¦   ¦   ¦   ¦           radio.meta.json
+¦   ¦   ¦   ¦           selectbox.data.json
+¦   ¦   ¦   ¦           selectbox.meta.json
+¦   ¦   ¦   ¦           select_slider.data.json
+¦   ¦   ¦   ¦           select_slider.meta.json
+¦   ¦   ¦   ¦           slider.data.json
+¦   ¦   ¦   ¦           slider.meta.json
+¦   ¦   ¦   ¦           text_widgets.data.json
+¦   ¦   ¦   ¦           text_widgets.meta.json
+¦   ¦   ¦   ¦           time_widgets.data.json
+¦   ¦   ¦   ¦           time_widgets.meta.json
+¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---navigation
+¦   ¦   ¦   ¦       page.data.json
+¦   ¦   ¦   ¦       page.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---proto
+¦   ¦   ¦   ¦       Alert_pb2.data.json
+¦   ¦   ¦   ¦       Alert_pb2.meta.json
+¦   ¦   ¦   ¦       AppPage_pb2.data.json
+¦   ¦   ¦   ¦       AppPage_pb2.meta.json
+¦   ¦   ¦   ¦       ArrowData_pb2.data.json
+¦   ¦   ¦   ¦       ArrowData_pb2.meta.json
+¦   ¦   ¦   ¦       ArrowNamedDataSet_pb2.data.json
+¦   ¦   ¦   ¦       ArrowNamedDataSet_pb2.meta.json
+¦   ¦   ¦   ¦       ArrowVegaLiteChart_pb2.data.json
+¦   ¦   ¦   ¦       ArrowVegaLiteChart_pb2.meta.json
+¦   ¦   ¦   ¦       Arrow_pb2.data.json
+¦   ¦   ¦   ¦       Arrow_pb2.meta.json
+¦   ¦   ¦   ¦       AudioInput_pb2.data.json
+¦   ¦   ¦   ¦       AudioInput_pb2.meta.json
+¦   ¦   ¦   ¦       Audio_pb2.data.json
+¦   ¦   ¦   ¦       Audio_pb2.meta.json
+¦   ¦   ¦   ¦       AuthRedirect_pb2.data.json
+¦   ¦   ¦   ¦       AuthRedirect_pb2.meta.json
+¦   ¦   ¦   ¦       AutoRerun_pb2.data.json
+¦   ¦   ¦   ¦       AutoRerun_pb2.meta.json
+¦   ¦   ¦   ¦       BackMsg_pb2.data.json
+¦   ¦   ¦   ¦       BackMsg_pb2.meta.json
+¦   ¦   ¦   ¦       Balloons_pb2.data.json
+¦   ¦   ¦   ¦       Balloons_pb2.meta.json
+¦   ¦   ¦   ¦       BidiComponent_pb2.data.json
+¦   ¦   ¦   ¦       BidiComponent_pb2.meta.json
+¦   ¦   ¦   ¦       Block_pb2.data.json
+¦   ¦   ¦   ¦       Block_pb2.meta.json
+¦   ¦   ¦   ¦       BokehChart_pb2.data.json
+¦   ¦   ¦   ¦       BokehChart_pb2.meta.json
+¦   ¦   ¦   ¦       ButtonGroup_pb2.data.json
+¦   ¦   ¦   ¦       ButtonGroup_pb2.meta.json
+¦   ¦   ¦   ¦       Button_pb2.data.json
+¦   ¦   ¦   ¦       Button_pb2.meta.json
+¦   ¦   ¦   ¦       CameraInput_pb2.data.json
+¦   ¦   ¦   ¦       CameraInput_pb2.meta.json
+¦   ¦   ¦   ¦       ChatInput_pb2.data.json
+¦   ¦   ¦   ¦       ChatInput_pb2.meta.json
+¦   ¦   ¦   ¦       Checkbox_pb2.data.json
+¦   ¦   ¦   ¦       Checkbox_pb2.meta.json
+¦   ¦   ¦   ¦       ClientState_pb2.data.json
+¦   ¦   ¦   ¦       ClientState_pb2.meta.json
+¦   ¦   ¦   ¦       Code_pb2.data.json
+¦   ¦   ¦   ¦       Code_pb2.meta.json
+¦   ¦   ¦   ¦       ColorPicker_pb2.data.json
+¦   ¦   ¦   ¦       ColorPicker_pb2.meta.json
+¦   ¦   ¦   ¦       Common_pb2.data.json
+¦   ¦   ¦   ¦       Common_pb2.meta.json
+¦   ¦   ¦   ¦       Components_pb2.data.json
+¦   ¦   ¦   ¦       Components_pb2.meta.json
+¦   ¦   ¦   ¦       DataFrame_pb2.data.json
+¦   ¦   ¦   ¦       DataFrame_pb2.meta.json
+¦   ¦   ¦   ¦       DateInput_pb2.data.json
+¦   ¦   ¦   ¦       DateInput_pb2.meta.json
+¦   ¦   ¦   ¦       DeckGlJsonChart_pb2.data.json
+¦   ¦   ¦   ¦       DeckGlJsonChart_pb2.meta.json
+¦   ¦   ¦   ¦       Delta_pb2.data.json
+¦   ¦   ¦   ¦       Delta_pb2.meta.json
+¦   ¦   ¦   ¦       DocString_pb2.data.json
+¦   ¦   ¦   ¦       DocString_pb2.meta.json
+¦   ¦   ¦   ¦       DownloadButton_pb2.data.json
+¦   ¦   ¦   ¦       DownloadButton_pb2.meta.json
+¦   ¦   ¦   ¦       Element_pb2.data.json
+¦   ¦   ¦   ¦       Element_pb2.meta.json
+¦   ¦   ¦   ¦       Empty_pb2.data.json
+¦   ¦   ¦   ¦       Empty_pb2.meta.json
+¦   ¦   ¦   ¦       Exception_pb2.data.json
+¦   ¦   ¦   ¦       Exception_pb2.meta.json
+¦   ¦   ¦   ¦       Favicon_pb2.data.json
+¦   ¦   ¦   ¦       Favicon_pb2.meta.json
+¦   ¦   ¦   ¦       FileUploader_pb2.data.json
+¦   ¦   ¦   ¦       FileUploader_pb2.meta.json
+¦   ¦   ¦   ¦       ForwardMsg_pb2.data.json
+¦   ¦   ¦   ¦       ForwardMsg_pb2.meta.json
+¦   ¦   ¦   ¦       GapSize_pb2.data.json
+¦   ¦   ¦   ¦       GapSize_pb2.meta.json
+¦   ¦   ¦   ¦       GitInfo_pb2.data.json
+¦   ¦   ¦   ¦       GitInfo_pb2.meta.json
+¦   ¦   ¦   ¦       GraphVizChart_pb2.data.json
+¦   ¦   ¦   ¦       GraphVizChart_pb2.meta.json
+¦   ¦   ¦   ¦       Heading_pb2.data.json
+¦   ¦   ¦   ¦       Heading_pb2.meta.json
+¦   ¦   ¦   ¦       HeightConfig_pb2.data.json
+¦   ¦   ¦   ¦       HeightConfig_pb2.meta.json
+¦   ¦   ¦   ¦       Html_pb2.data.json
+¦   ¦   ¦   ¦       Html_pb2.meta.json
+¦   ¦   ¦   ¦       IFrame_pb2.data.json
+¦   ¦   ¦   ¦       IFrame_pb2.meta.json
+¦   ¦   ¦   ¦       Image_pb2.data.json
+¦   ¦   ¦   ¦       Image_pb2.meta.json
+¦   ¦   ¦   ¦       Json_pb2.data.json
+¦   ¦   ¦   ¦       Json_pb2.meta.json
+¦   ¦   ¦   ¦       LabelVisibilityMessage_pb2.data.json
+¦   ¦   ¦   ¦       LabelVisibilityMessage_pb2.meta.json
+¦   ¦   ¦   ¦       LinkButton_pb2.data.json
+¦   ¦   ¦   ¦       LinkButton_pb2.meta.json
+¦   ¦   ¦   ¦       Logo_pb2.data.json
+¦   ¦   ¦   ¦       Logo_pb2.meta.json
+¦   ¦   ¦   ¦       Markdown_pb2.data.json
+¦   ¦   ¦   ¦       Markdown_pb2.meta.json
+¦   ¦   ¦   ¦       Metric_pb2.data.json
+¦   ¦   ¦   ¦       Metric_pb2.meta.json
+¦   ¦   ¦   ¦       MultiSelect_pb2.data.json
+¦   ¦   ¦   ¦       MultiSelect_pb2.meta.json
+¦   ¦   ¦   ¦       NamedDataSet_pb2.data.json
+¦   ¦   ¦   ¦       NamedDataSet_pb2.meta.json
+¦   ¦   ¦   ¦       Navigation_pb2.data.json
+¦   ¦   ¦   ¦       Navigation_pb2.meta.json
+¦   ¦   ¦   ¦       NewSession_pb2.data.json
+¦   ¦   ¦   ¦       NewSession_pb2.meta.json
+¦   ¦   ¦   ¦       NumberInput_pb2.data.json
+¦   ¦   ¦   ¦       NumberInput_pb2.meta.json
+¦   ¦   ¦   ¦       openmetrics_data_model_pb2.data.json
+¦   ¦   ¦   ¦       openmetrics_data_model_pb2.meta.json
+¦   ¦   ¦   ¦       PageConfig_pb2.data.json
+¦   ¦   ¦   ¦       PageConfig_pb2.meta.json
+¦   ¦   ¦   ¦       PageInfo_pb2.data.json
+¦   ¦   ¦   ¦       PageInfo_pb2.meta.json
+¦   ¦   ¦   ¦       PageLink_pb2.data.json
+¦   ¦   ¦   ¦       PageLink_pb2.meta.json
+¦   ¦   ¦   ¦       PageNotFound_pb2.data.json
+¦   ¦   ¦   ¦       PageNotFound_pb2.meta.json
+¦   ¦   ¦   ¦       PageProfile_pb2.data.json
+¦   ¦   ¦   ¦       PageProfile_pb2.meta.json
+¦   ¦   ¦   ¦       PagesChanged_pb2.data.json
+¦   ¦   ¦   ¦       PagesChanged_pb2.meta.json
+¦   ¦   ¦   ¦       ParentMessage_pb2.data.json
+¦   ¦   ¦   ¦       ParentMessage_pb2.meta.json
+¦   ¦   ¦   ¦       PlotlyChart_pb2.data.json
+¦   ¦   ¦   ¦       PlotlyChart_pb2.meta.json
+¦   ¦   ¦   ¦       Progress_pb2.data.json
+¦   ¦   ¦   ¦       Progress_pb2.meta.json
+¦   ¦   ¦   ¦       Radio_pb2.data.json
+¦   ¦   ¦   ¦       Radio_pb2.meta.json
+¦   ¦   ¦   ¦       RootContainer_pb2.data.json
+¦   ¦   ¦   ¦       RootContainer_pb2.meta.json
+¦   ¦   ¦   ¦       Selectbox_pb2.data.json
+¦   ¦   ¦   ¦       Selectbox_pb2.meta.json
+¦   ¦   ¦   ¦       SessionEvent_pb2.data.json
+¦   ¦   ¦   ¦       SessionEvent_pb2.meta.json
+¦   ¦   ¦   ¦       SessionStatus_pb2.data.json
+¦   ¦   ¦   ¦       SessionStatus_pb2.meta.json
+¦   ¦   ¦   ¦       Skeleton_pb2.data.json
+¦   ¦   ¦   ¦       Skeleton_pb2.meta.json
+¦   ¦   ¦   ¦       Slider_pb2.data.json
+¦   ¦   ¦   ¦       Slider_pb2.meta.json
+¦   ¦   ¦   ¦       Snow_pb2.data.json
+¦   ¦   ¦   ¦       Snow_pb2.meta.json
+¦   ¦   ¦   ¦       Space_pb2.data.json
+¦   ¦   ¦   ¦       Space_pb2.meta.json
+¦   ¦   ¦   ¦       Spinner_pb2.data.json
+¦   ¦   ¦   ¦       Spinner_pb2.meta.json
+¦   ¦   ¦   ¦       TextArea_pb2.data.json
+¦   ¦   ¦   ¦       TextArea_pb2.meta.json
+¦   ¦   ¦   ¦       TextInput_pb2.data.json
+¦   ¦   ¦   ¦       TextInput_pb2.meta.json
+¦   ¦   ¦   ¦       Text_pb2.data.json
+¦   ¦   ¦   ¦       Text_pb2.meta.json
+¦   ¦   ¦   ¦       TimeInput_pb2.data.json
+¦   ¦   ¦   ¦       TimeInput_pb2.meta.json
+¦   ¦   ¦   ¦       Toast_pb2.data.json
+¦   ¦   ¦   ¦       Toast_pb2.meta.json
+¦   ¦   ¦   ¦       VegaLiteChart_pb2.data.json
+¦   ¦   ¦   ¦       VegaLiteChart_pb2.meta.json
+¦   ¦   ¦   ¦       Video_pb2.data.json
+¦   ¦   ¦   ¦       Video_pb2.meta.json
+¦   ¦   ¦   ¦       WidgetStates_pb2.data.json
+¦   ¦   ¦   ¦       WidgetStates_pb2.meta.json
+¦   ¦   ¦   ¦       WidthConfig_pb2.data.json
+¦   ¦   ¦   ¦       WidthConfig_pb2.meta.json
+¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---runtime
+¦   ¦   ¦   ¦   ¦   app_session.data.json
+¦   ¦   ¦   ¦   ¦   app_session.meta.json
+¦   ¦   ¦   ¦   ¦   connection_factory.data.json
+¦   ¦   ¦   ¦   ¦   connection_factory.meta.json
+¦   ¦   ¦   ¦   ¦   context.data.json
+¦   ¦   ¦   ¦   ¦   context.meta.json
+¦   ¦   ¦   ¦   ¦   context_util.data.json
+¦   ¦   ¦   ¦   ¦   context_util.meta.json
+¦   ¦   ¦   ¦   ¦   forward_msg_cache.data.json
+¦   ¦   ¦   ¦   ¦   forward_msg_cache.meta.json
+¦   ¦   ¦   ¦   ¦   forward_msg_queue.data.json
+¦   ¦   ¦   ¦   ¦   forward_msg_queue.meta.json
+¦   ¦   ¦   ¦   ¦   fragment.data.json
+¦   ¦   ¦   ¦   ¦   fragment.meta.json
+¦   ¦   ¦   ¦   ¦   media_file_manager.data.json
+¦   ¦   ¦   ¦   ¦   media_file_manager.meta.json
+¦   ¦   ¦   ¦   ¦   media_file_storage.data.json
+¦   ¦   ¦   ¦   ¦   media_file_storage.meta.json
+¦   ¦   ¦   ¦   ¦   memory_session_storage.data.json
+¦   ¦   ¦   ¦   ¦   memory_session_storage.meta.json
+¦   ¦   ¦   ¦   ¦   metrics_util.data.json
+¦   ¦   ¦   ¦   ¦   metrics_util.meta.json
+¦   ¦   ¦   ¦   ¦   pages_manager.data.json
+¦   ¦   ¦   ¦   ¦   pages_manager.meta.json
+¦   ¦   ¦   ¦   ¦   runtime.data.json
+¦   ¦   ¦   ¦   ¦   runtime.meta.json
+¦   ¦   ¦   ¦   ¦   script_data.data.json
+¦   ¦   ¦   ¦   ¦   script_data.meta.json
+¦   ¦   ¦   ¦   ¦   secrets.data.json
+¦   ¦   ¦   ¦   ¦   secrets.meta.json
+¦   ¦   ¦   ¦   ¦   session_manager.data.json
+¦   ¦   ¦   ¦   ¦   session_manager.meta.json
+¦   ¦   ¦   ¦   ¦   stats.data.json
+¦   ¦   ¦   ¦   ¦   stats.meta.json
+¦   ¦   ¦   ¦   ¦   theme_util.data.json
+¦   ¦   ¦   ¦   ¦   theme_util.meta.json
+¦   ¦   ¦   ¦   ¦   uploaded_file_manager.data.json
+¦   ¦   ¦   ¦   ¦   uploaded_file_manager.meta.json
+¦   ¦   ¦   ¦   ¦   websocket_session_manager.data.json
+¦   ¦   ¦   ¦   ¦   websocket_session_manager.meta.json
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---caching
+¦   ¦   ¦   ¦   ¦   ¦   cached_message_replay.data.json
+¦   ¦   ¦   ¦   ¦   ¦   cached_message_replay.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_data_api.data.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_data_api.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_errors.data.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_errors.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_resource_api.data.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_resource_api.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_type.data.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_type.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_utils.data.json
+¦   ¦   ¦   ¦   ¦   ¦   cache_utils.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   hashing.data.json
+¦   ¦   ¦   ¦   ¦   ¦   hashing.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   legacy_cache_api.data.json
+¦   ¦   ¦   ¦   ¦   ¦   legacy_cache_api.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦           cache_storage_protocol.data.json
+¦   ¦   ¦   ¦   ¦           cache_storage_protocol.meta.json
+¦   ¦   ¦   ¦   ¦           dummy_cache_storage.data.json
+¦   ¦   ¦   ¦   ¦           dummy_cache_storage.meta.json
+¦   ¦   ¦   ¦   ¦           in_memory_cache_storage_wrapper.data.json
+¦   ¦   ¦   ¦   ¦           in_memory_cache_storage_wrapper.meta.json
+¦   ¦   ¦   ¦   ¦           local_disk_cache_storage.data.json
+¦   ¦   ¦   ¦   ¦           local_disk_cache_storage.meta.json
+¦   ¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---scriptrunner
+¦   ¦   ¦   ¦   ¦       exec_code.data.json
+¦   ¦   ¦   ¦   ¦       exec_code.meta.json
+¦   ¦   ¦   ¦   ¦       magic.data.json
+¦   ¦   ¦   ¦   ¦       magic.meta.json
+¦   ¦   ¦   ¦   ¦       script_cache.data.json
+¦   ¦   ¦   ¦   ¦       script_cache.meta.json
+¦   ¦   ¦   ¦   ¦       script_runner.data.json
+¦   ¦   ¦   ¦   ¦       script_runner.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---scriptrunner_utils
+¦   ¦   ¦   ¦   ¦       exceptions.data.json
+¦   ¦   ¦   ¦   ¦       exceptions.meta.json
+¦   ¦   ¦   ¦   ¦       script_requests.data.json
+¦   ¦   ¦   ¦   ¦       script_requests.meta.json
+¦   ¦   ¦   ¦   ¦       script_run_context.data.json
+¦   ¦   ¦   ¦   ¦       script_run_context.meta.json
+¦   ¦   ¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---state
+¦   ¦   ¦   ¦           common.data.json
+¦   ¦   ¦   ¦           common.meta.json
+¦   ¦   ¦   ¦           presentation.data.json
+¦   ¦   ¦   ¦           presentation.meta.json
+¦   ¦   ¦   ¦           query_params.data.json
+¦   ¦   ¦   ¦           query_params.meta.json
+¦   ¦   ¦   ¦           query_params_proxy.data.json
+¦   ¦   ¦   ¦           query_params_proxy.meta.json
+¦   ¦   ¦   ¦           safe_session_state.data.json
+¦   ¦   ¦   ¦           safe_session_state.meta.json
+¦   ¦   ¦   ¦           session_state.data.json
+¦   ¦   ¦   ¦           session_state.meta.json
+¦   ¦   ¦   ¦           session_state_proxy.data.json
+¦   ¦   ¦   ¦           session_state_proxy.meta.json
+¦   ¦   ¦   ¦           widgets.data.json
+¦   ¦   ¦   ¦           widgets.meta.json
+¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---vendor
+¦   ¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---pympler
+¦   ¦   ¦   ¦           asizeof.data.json
+¦   ¦   ¦   ¦           asizeof.meta.json
+¦   ¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---watcher
+¦   ¦   ¦           folder_black_list.data.json
+¦   ¦   ¦           folder_black_list.meta.json
+¦   ¦   ¦           local_sources_watcher.data.json
+¦   ¦   ¦           local_sources_watcher.meta.json
+¦   ¦   ¦           path_watcher.data.json
+¦   ¦   ¦           path_watcher.meta.json
+¦   ¦   ¦           polling_path_watcher.data.json
+¦   ¦   ¦           polling_path_watcher.meta.json
+¦   ¦   ¦           util.data.json
+¦   ¦   ¦           util.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---sys
+¦   ¦   ¦       _monitoring.data.json
+¦   ¦   ¦       _monitoring.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---tenacity
+¦   ¦   ¦   ¦   after.data.json
+¦   ¦   ¦   ¦   after.meta.json
+¦   ¦   ¦   ¦   before.data.json
+¦   ¦   ¦   ¦   before.meta.json
+¦   ¦   ¦   ¦   before_sleep.data.json
+¦   ¦   ¦   ¦   before_sleep.meta.json
+¦   ¦   ¦   ¦   nap.data.json
+¦   ¦   ¦   ¦   nap.meta.json
+¦   ¦   ¦   ¦   retry.data.json
+¦   ¦   ¦   ¦   retry.meta.json
+¦   ¦   ¦   ¦   stop.data.json
+¦   ¦   ¦   ¦   stop.meta.json
+¦   ¦   ¦   ¦   tornadoweb.data.json
+¦   ¦   ¦   ¦   tornadoweb.meta.json
+¦   ¦   ¦   ¦   wait.data.json
+¦   ¦   ¦   ¦   wait.meta.json
+¦   ¦   ¦   ¦   _utils.data.json
+¦   ¦   ¦   ¦   _utils.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---asyncio
+¦   ¦   ¦           retry.data.json
+¦   ¦   ¦           retry.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---tornado
+¦   ¦   ¦   ¦   auth.data.json
+¦   ¦   ¦   ¦   auth.meta.json
+¦   ¦   ¦   ¦   autoreload.data.json
+¦   ¦   ¦   ¦   autoreload.meta.json
+¦   ¦   ¦   ¦   concurrent.data.json
+¦   ¦   ¦   ¦   concurrent.meta.json
+¦   ¦   ¦   ¦   curl_httpclient.data.json
+¦   ¦   ¦   ¦   curl_httpclient.meta.json
+¦   ¦   ¦   ¦   escape.data.json
+¦   ¦   ¦   ¦   escape.meta.json
+¦   ¦   ¦   ¦   gen.data.json
+¦   ¦   ¦   ¦   gen.meta.json
+¦   ¦   ¦   ¦   http1connection.data.json
+¦   ¦   ¦   ¦   http1connection.meta.json
+¦   ¦   ¦   ¦   httpclient.data.json
+¦   ¦   ¦   ¦   httpclient.meta.json
+¦   ¦   ¦   ¦   httpserver.data.json
+¦   ¦   ¦   ¦   httpserver.meta.json
+¦   ¦   ¦   ¦   httputil.data.json
+¦   ¦   ¦   ¦   httputil.meta.json
+¦   ¦   ¦   ¦   ioloop.data.json
+¦   ¦   ¦   ¦   ioloop.meta.json
+¦   ¦   ¦   ¦   iostream.data.json
+¦   ¦   ¦   ¦   iostream.meta.json
+¦   ¦   ¦   ¦   locale.data.json
+¦   ¦   ¦   ¦   locale.meta.json
+¦   ¦   ¦   ¦   locks.data.json
+¦   ¦   ¦   ¦   locks.meta.json
+¦   ¦   ¦   ¦   log.data.json
+¦   ¦   ¦   ¦   log.meta.json
+¦   ¦   ¦   ¦   netutil.data.json
+¦   ¦   ¦   ¦   netutil.meta.json
+¦   ¦   ¦   ¦   options.data.json
+¦   ¦   ¦   ¦   options.meta.json
+¦   ¦   ¦   ¦   process.data.json
+¦   ¦   ¦   ¦   process.meta.json
+¦   ¦   ¦   ¦   queues.data.json
+¦   ¦   ¦   ¦   queues.meta.json
+¦   ¦   ¦   ¦   routing.data.json
+¦   ¦   ¦   ¦   routing.meta.json
+¦   ¦   ¦   ¦   simple_httpclient.data.json
+¦   ¦   ¦   ¦   simple_httpclient.meta.json
+¦   ¦   ¦   ¦   speedups.data.json
+¦   ¦   ¦   ¦   speedups.meta.json
+¦   ¦   ¦   ¦   tcpclient.data.json
+¦   ¦   ¦   ¦   tcpclient.meta.json
+¦   ¦   ¦   ¦   tcpserver.data.json
+¦   ¦   ¦   ¦   tcpserver.meta.json
+¦   ¦   ¦   ¦   template.data.json
+¦   ¦   ¦   ¦   template.meta.json
+¦   ¦   ¦   ¦   testing.data.json
+¦   ¦   ¦   ¦   testing.meta.json
+¦   ¦   ¦   ¦   util.data.json
+¦   ¦   ¦   ¦   util.meta.json
+¦   ¦   ¦   ¦   web.data.json
+¦   ¦   ¦   ¦   web.meta.json
+¦   ¦   ¦   ¦   _locale_data.data.json
+¦   ¦   ¦   ¦   _locale_data.meta.json
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---platform
+¦   ¦   ¦           asyncio.data.json
+¦   ¦   ¦           asyncio.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---unittest
+¦   ¦   ¦       async_case.data.json
+¦   ¦   ¦       async_case.meta.json
+¦   ¦   ¦       case.data.json
+¦   ¦   ¦       case.meta.json
+¦   ¦   ¦       loader.data.json
+¦   ¦   ¦       loader.meta.json
+¦   ¦   ¦       main.data.json
+¦   ¦   ¦       main.meta.json
+¦   ¦   ¦       result.data.json
+¦   ¦   ¦       result.meta.json
+¦   ¦   ¦       runner.data.json
+¦   ¦   ¦       runner.meta.json
+¦   ¦   ¦       signals.data.json
+¦   ¦   ¦       signals.meta.json
+¦   ¦   ¦       suite.data.json
+¦   ¦   ¦       suite.meta.json
+¦   ¦   ¦       _log.data.json
+¦   ¦   ¦       _log.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---urllib
+¦   ¦   ¦       error.data.json
+¦   ¦   ¦       error.meta.json
+¦   ¦   ¦       parse.data.json
+¦   ¦   ¦       parse.meta.json
+¦   ¦   ¦       request.data.json
+¦   ¦   ¦       request.meta.json
+¦   ¦   ¦       response.data.json
+¦   ¦   ¦       response.meta.json
+¦   ¦   ¦       __init__.data.json
+¦   ¦   ¦       __init__.meta.json
+¦   ¦   ¦       
+¦   ¦   +---xml
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---etree
+¦   ¦   ¦           ElementTree.data.json
+¦   ¦   ¦           ElementTree.meta.json
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---zipfile
+¦   ¦   ¦   ¦   __init__.data.json
+¦   ¦   ¦   ¦   __init__.meta.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---_path
+¦   ¦   ¦           __init__.data.json
+¦   ¦   ¦           __init__.meta.json
+¦   ¦   ¦           
+¦   ¦   +---_typeshed
+¦   ¦           importlib.data.json
+¦   ¦           importlib.meta.json
+¦   ¦           __init__.data.json
+¦   ¦           __init__.meta.json
+¦   ¦           
+¦   +---3.14
+¦       ¦   @plugins_snapshot.json
+¦       ¦   abc.data.json
+¦       ¦   abc.meta.json
+¦       ¦   ast.data.json
+¦       ¦   ast.meta.json
+¦       ¦   builtins.data.json
+¦       ¦   builtins.meta.json
+¦       ¦   codecs.data.json
+¦       ¦   codecs.meta.json
+¦       ¦   contextlib.data.json
+¦       ¦   contextlib.meta.json
+¦       ¦   dataclasses.data.json
+¦       ¦   dataclasses.meta.json
+¦       ¦   enum.data.json
+¦       ¦   enum.meta.json
+¦       ¦   genericpath.data.json
+¦       ¦   genericpath.meta.json
+¦       ¦   io.data.json
+¦       ¦   io.meta.json
+¦       ¦   ntpath.data.json
+¦       ¦   ntpath.meta.json
+¦       ¦   pathlib.data.json
+¦       ¦   pathlib.meta.json
+¦       ¦   posixpath.data.json
+¦       ¦   posixpath.meta.json
+¦       ¦   re.data.json
+¦       ¦   re.meta.json
+¦       ¦   sre_compile.data.json
+¦       ¦   sre_compile.meta.json
+¦       ¦   sre_constants.data.json
+¦       ¦   sre_constants.meta.json
+¦       ¦   sre_parse.data.json
+¦       ¦   sre_parse.meta.json
+¦       ¦   subprocess.data.json
+¦       ¦   subprocess.meta.json
+¦       ¦   types.data.json
+¦       ¦   types.meta.json
+¦       ¦   typing.data.json
+¦       ¦   typing.meta.json
+¦       ¦   typing_extensions.data.json
+¦       ¦   typing_extensions.meta.json
+¦       ¦   warnings.data.json
+¦       ¦   warnings.meta.json
+¦       ¦   _ast.data.json
+¦       ¦   _ast.meta.json
+¦       ¦   _codecs.data.json
+¦       ¦   _codecs.meta.json
+¦       ¦   _collections_abc.data.json
+¦       ¦   _collections_abc.meta.json
+¦       ¦   _frozen_importlib.data.json
+¦       ¦   _frozen_importlib.meta.json
+¦       ¦   _frozen_importlib_external.data.json
+¦       ¦   _frozen_importlib_external.meta.json
+¦       ¦   _io.data.json
+¦       ¦   _io.meta.json
+¦       ¦   _sitebuiltins.data.json
+¦       ¦   _sitebuiltins.meta.json
+¦       ¦   _warnings.data.json
+¦       ¦   _warnings.meta.json
+¦       ¦   _winapi.data.json
+¦       ¦   _winapi.meta.json
+¦       ¦   __future__.data.json
+¦       ¦   __future__.meta.json
+¦       ¦   
+¦       +---collections
+¦       ¦       abc.data.json
+¦       ¦       abc.meta.json
+¦       ¦       __init__.data.json
+¦       ¦       __init__.meta.json
+¦       ¦       
+¦       +---email
+¦       ¦       charset.data.json
+¦       ¦       charset.meta.json
+¦       ¦       contentmanager.data.json
+¦       ¦       contentmanager.meta.json
+¦       ¦       errors.data.json
+¦       ¦       errors.meta.json
+¦       ¦       header.data.json
+¦       ¦       header.meta.json
+¦       ¦       message.data.json
+¦       ¦       message.meta.json
+¦       ¦       policy.data.json
+¦       ¦       policy.meta.json
+¦       ¦       _policybase.data.json
+¦       ¦       _policybase.meta.json
+¦       ¦       __init__.data.json
+¦       ¦       __init__.meta.json
+¦       ¦       
+¦       +---importlib
+¦       ¦   ¦   abc.data.json
+¦       ¦   ¦   abc.meta.json
+¦       ¦   ¦   machinery.data.json
+¦       ¦   ¦   machinery.meta.json
+¦       ¦   ¦   readers.data.json
+¦       ¦   ¦   readers.meta.json
+¦       ¦   ¦   _abc.data.json
+¦       ¦   ¦   _abc.meta.json
+¦       ¦   ¦   _bootstrap.data.json
+¦       ¦   ¦   _bootstrap.meta.json
+¦       ¦   ¦   _bootstrap_external.data.json
+¦       ¦   ¦   _bootstrap_external.meta.json
+¦       ¦   ¦   __init__.data.json
+¦       ¦   ¦   __init__.meta.json
+¦       ¦   ¦   
+¦       ¦   +---metadata
+¦       ¦   ¦       _meta.data.json
+¦       ¦   ¦       _meta.meta.json
+¦       ¦   ¦       __init__.data.json
+¦       ¦   ¦       __init__.meta.json
+¦       ¦   ¦       
+¦       ¦   +---resources
+¦       ¦           abc.data.json
+¦       ¦           abc.meta.json
+¦       ¦           _common.data.json
+¦       ¦           _common.meta.json
+¦       ¦           _functional.data.json
+¦       ¦           _functional.meta.json
+¦       ¦           __init__.data.json
+¦       ¦           __init__.meta.json
+¦       ¦           
+¦       +---os
+¦       ¦       path.data.json
+¦       ¦       path.meta.json
+¦       ¦       __init__.data.json
+¦       ¦       __init__.meta.json
+¦       ¦       
+¦       +---sys
+¦       ¦       _monitoring.data.json
+¦       ¦       _monitoring.meta.json
+¦       ¦       __init__.data.json
+¦       ¦       __init__.meta.json
+¦       ¦       
+¦       +---zipfile
+¦       ¦   ¦   __init__.data.json
+¦       ¦   ¦   __init__.meta.json
+¦       ¦   ¦   
+¦       ¦   +---_path
+¦       ¦           __init__.data.json
+¦       ¦           __init__.meta.json
+¦       ¦           
+¦       +---_typeshed
+¦               importlib.data.json
+¦               importlib.meta.json
+¦               __init__.data.json
+¦               __init__.meta.json
+¦               
++---.pytest_cache
+¦   ¦   .gitignore
+¦   ¦   CACHEDIR.TAG
+¦   ¦   README.md
+¦   ¦   
+¦   +---v
+¦       +---cache
+¦               nodeids
+¦               
++---.vscode
+¦       settings.json
+¦       
++---data
+¦       Ladesaeulenregister.csv
+¦       
++---docs
+¦       DOMAIN_MODEL.md
+¦       
++---src
+¦   +---chargehub
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---discovery
+¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---application
+¦   ¦   ¦   ¦   ¦   charging_station_service.py
+¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---dtos
+¦   ¦   ¦   ¦   ¦   ¦   charging_station_dto.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           charging_station_dto.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦           charging_station_service.cpython-313.pyc
+¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---domain
+¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---aggregates
+¦   ¦   ¦   ¦   ¦   ¦   charging_station.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           charging_station.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---events
+¦   ¦   ¦   ¦   ¦   ¦   no_stations_found.py
+¦   ¦   ¦   ¦   ¦   ¦   postal_code_failed.py
+¦   ¦   ¦   ¦   ¦   ¦   postal_code_validated.py
+¦   ¦   ¦   ¦   ¦   ¦   stations_found.py
+¦   ¦   ¦   ¦   ¦   ¦   station_search_initiated.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           no_stations_found.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           postal_code_failed.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           postal_code_validated.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           stations_found.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           station_search_initiated.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---value_objects
+¦   ¦   ¦   ¦   ¦   ¦   postal_code.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           postal_code.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---infrastructure
+¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---repositories
+¦   ¦   ¦   ¦   ¦   ¦   charging_station_repository.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           charging_station_repository.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦           
+¦   ¦   +---malfunction
+¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---application
+¦   ¦   ¦   ¦   ¦   malfunction_service.py
+¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦           malfunction_service.cpython-313.pyc
+¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---domain
+¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---aggregates
+¦   ¦   ¦   ¦   ¦       malfunction_report.py
+¦   ¦   ¦   ¦   ¦       __init__.py
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---events
+¦   ¦   ¦   ¦   ¦   ¦   administrator_notified.py
+¦   ¦   ¦   ¦   ¦   ¦   malfunction_report_acknowledged.py
+¦   ¦   ¦   ¦   ¦   ¦   malfunction_report_filed.py
+¦   ¦   ¦   ¦   ¦   ¦   malfunction_report_threshold_reached.py
+¦   ¦   ¦   ¦   ¦   ¦   repair_completed.py
+¦   ¦   ¦   ¦   ¦   ¦   report_counter_incremented.py
+¦   ¦   ¦   ¦   ¦   ¦   station_status_changed.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           administrator_notified.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           malfunction_report_filed.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           malfunction_report_threshold_reached.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           repair_completed.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           report_counter_incremented.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           station_status_changed.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---value_objects
+¦   ¦   ¦   ¦   ¦   ¦   report_text.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           report_text.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---infrastructure
+¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---repositories
+¦   ¦   ¦   ¦   ¦   ¦   charging_station_csv_repository.py
+¦   ¦   ¦   ¦   ¦   ¦   report_repository.py
+¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦   ¦           report_repository.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦   ¦           
+¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦   ¦           
+¦   ¦   +---__pycache__
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---chargehub_berlin.egg-info
+¦           dependency_links.txt
+¦           PKG-INFO
+¦           SOURCES.txt
+¦           top_level.txt
+¦           
++---tests
+    +---discovery
+    ¦   ¦   test_charging_station_service.py
+    ¦   ¦   test_postal_code.py
+    ¦   ¦   
+    ¦   +---infrastructure
+    ¦   ¦   ¦   __init__.py
+    ¦   ¦   ¦   
+    ¦   ¦   +---repositories
+    ¦   ¦           __init__.py
+    ¦   ¦           
+    ¦   +---__pycache__
+    ¦           test_charging_station_service.cpython-313-pytest-9.0.2.pyc
+    ¦           test_postal_code.cpython-313-pytest-9.0.2.pyc
+    ¦           
+    +---malfunction
+        ¦   test_malfunction_service.py
+        ¦   
+        +---__pycache__
+                test_malfunction_service.cpython-313-pytest-9.0.2.pyc
+                

@@ -1,0 +1,4 @@
+streamlit>=1.33
+pytest>=8.0
+streamlit-folium
+folium
