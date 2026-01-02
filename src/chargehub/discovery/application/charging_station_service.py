@@ -6,7 +6,7 @@ from typing import List, Sequence
 from chargehub.discovery.application.dtos.charging_station_dto import ChargingStationDTO
 from chargehub.discovery.domain.events.station_search_initiated import StationSearchInitiatedEvent
 from chargehub.discovery.domain.events.postal_code_validated import PostalCodeValidatedEvent
-from chargehub.discovery.domain.events.postal_code_failed import PostalCodeFailedEvent
+from chargehub.discovery.domain.events.station_failed_event import StationFailedEvent
 from chargehub.discovery.domain.events.stations_found import StationsFoundEvent
 from chargehub.discovery.domain.events.no_stations_found import NoStationsFoundEvent
 from chargehub.discovery.domain.value_objects.postal_code import PostalCode
@@ -23,7 +23,7 @@ class ChargingStationService:
             pc = PostalCode(postal_code)
             events.append(PostalCodeValidatedEvent(postal_code=pc.value))
         except ValueError:
-            events.append(PostalCodeFailedEvent(reason="Invalid Format"))
+            events.append(StationFailedEvent(reason="Invalid Format"))
             raise
 
         stations = self.repository.locate_charging_stations(pc)

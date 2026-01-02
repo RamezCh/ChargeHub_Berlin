@@ -6,9 +6,9 @@ from chargehub.discovery.domain.aggregates.charging_station import ChargingStati
 
 def test_search_returns_only_available_stations():
     stations = [
-        ChargingStationAggregate(station_id=1, postal_code="10115", available=True),
-        ChargingStationAggregate(station_id=2, postal_code="10115", available=False),
-        ChargingStationAggregate(station_id=3, postal_code="12043", available=True),
+        ChargingStationAggregate(station_id=1, postal_code="10115", latitude=52.52, longitude=13.40, available=True),
+        ChargingStationAggregate(station_id=2, postal_code="10115", latitude=52.52, longitude=13.40, available=False),
+        ChargingStationAggregate(station_id=3, postal_code="12043", latitude=52.52, longitude=13.40, available=True),
     ]
     repo = ChargingStationRepository(stations)
     service = ChargingStationService(repository=repo)
@@ -25,7 +25,7 @@ def test_search_invalid_postal_code_raises():
         service.search_by_postal_code("ABCDE")
 
 def test_search_no_stations_found_event():
-    repo = ChargingStationRepository([ChargingStationAggregate(station_id=1, postal_code="10115", available=False)])
+    repo = ChargingStationRepository([ChargingStationAggregate(station_id=1, postal_code="10115", latitude=52.52, longitude=13.40, available=False)])
     service = ChargingStationService(repository=repo)
     results, events = service.search_by_postal_code("10115")
     assert results == []

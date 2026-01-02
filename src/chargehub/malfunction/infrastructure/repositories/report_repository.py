@@ -28,3 +28,11 @@ class ReportRepository:
 
     def get_affected_station_ids(self) -> List[int]:
         return list(self._count_by_station.keys())
+
+    def has_report(self, station_id: int, report_text: str) -> bool:
+        return any(r.station_id == station_id and r.report_text == report_text for r in self._reports)
+
+    def clear_reports(self, station_id: int) -> None:
+        self._reports = [r for r in self._reports if r.station_id != station_id]
+        if station_id in self._count_by_station:
+            del self._count_by_station[station_id]

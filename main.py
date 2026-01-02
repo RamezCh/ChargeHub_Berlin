@@ -88,7 +88,7 @@ def sidebar_role_switcher():
         st.caption("v1.2.0 • Map & Dashboard")
     return role
 
-def render_map(stations, highlight_plz=None):
+def render_map(stations, highlight_plz=None, selected_station_id=None):
     # Center on Berlin
     m = folium.Map(location=[52.5200, 13.4050], zoom_start=11)
     
@@ -110,9 +110,12 @@ def render_map(stations, highlight_plz=None):
         color = "green" if s.available else "red"
         status_text = "Available" if s.available else "Malfunctioning"
         
+        # Show popup if selected
+        is_selected = (s.station_id == selected_station_id)
+        
         folium.Marker(
             location=[s.latitude, s.longitude],
-            popup=folium.Popup(f"<b>ID: {s.station_id}</b><br>{s.operator}<br><i>{status_text}</i>", max_width=200),
+            popup=folium.Popup(f"<b>ID: {s.station_id}</b><br>{s.operator}<br><i>{status_text}</i>", max_width=200, show=is_selected),
             tooltip=f"{s.address} (ID: {s.station_id})",
             icon=folium.Icon(color=color, icon="bolt", prefix="fa")
         ).add_to(m)
@@ -153,33 +156,82 @@ def render_user_view():
             st.info(f"Showing {len(stations)} random stations. Enter a PLZ to filter.")
 
         # Map
-        m = render_map(stations, highlight_plz=postal_code.strip() if postal_code else None)
-        output = st_folium(m, width="100%", height=500, returned_objects=["last_object_clicked"])
+        # Determine selected station from session state
+        sel_id = st.session_state.get("report_station_id", None)
+        if sel_id == 0: sel_id = None
+        
+        # Dynamic key forces re-render (and popup show) when selection changes
+        map_key = f"map_{sel_id}" if sel_id else "map_default"
+        
+        m = render_map(stations, highlight_plz=postal_code.strip() if postal_code else None, selected_station_id=sel_id)
+        output = st_folium(m, width="100%", height=500, returned_objects=["last_object_clicked"], key=map_key)
 
     with col2:
         st.subheader("Station Actions")
         
+        # Initialize session state vars
+        if "report_station_id" not in st.session_state:
+            st.session_state["report_station_id"] = 0
+        if "last_processed_click" not in st.session_state:
+            st.session_state["last_processed_click"] = None
+        if "submission_success" not in st.session_state:
+            st.session_state["submission_success"] = False
+        if "submission_error" not in st.session_state:
+            st.session_state["submission_error"] = None
+
+        # Map Click Logic - Only update if changed
         if output and output.get("last_object_clicked"):
-            # Could parse lat/lon to guess station, but for now manual ID is robust
-            pass
+            clicked = output["last_object_clicked"]
+            if clicked != st.session_state["last_processed_click"]:
+                st.session_state["last_processed_click"] = clicked
+                if clicked:
+                    lat = clicked.get("lat")
+                    lng = clicked.get("lng")
+                    found = next((s for s in charging_repo.get_all() if abs(s.latitude - lat) < 0.0001 and abs(s.longitude - lng) < 0.0001), None)
+                    if found:
+                        st.session_state["report_station_id"] = found.station_id
+
+        # Submission Callback
+        def submit_report():
+            s_id = st.session_state.report_station_id
+            content = st.session_state.report_content
+            
+            if not s_id:
+                st.session_state["submission_error"] = "Please enter a valid Station ID."
+                return
+
+            try:
+                malfunction_service.file_malfunction_report(int(s_id), content)
+                st.session_state["submission_success"] = True
+                # Clear inputs safely here (Callback runs BEFORE widget rendering of next run)
+                st.session_state["report_station_id"] = 0
+                st.session_state["report_content"] = ""
+            except ValueError as ve:
+                st.session_state["submission_error"] = str(ve)
+            except Exception as e:
+                 st.session_state["submission_error"] = f"An unexpected error occurred: {e}"
 
         with st.expander("Report a Malfunction", expanded=True):
             st.write("See a broken charger? Let us know.")
-            station_id_input = st.number_input("Station ID", min_value=0, step=1, help="Found on the station housing or map pin")
-            report_text = st.text_area("Describe the issue", max_chars=200)
             
-            if st.button("Submit Report", type="primary"):
-                if station_id_input is None or station_id_input == 0:
-                    st.error("Please enter a valid Station ID.")
-                else:
-                    try:
-                        events = malfunction_service.file_malfunction_report(int(station_id_input), report_text)
-                        st.balloons()
-                        st.success("Report submitted successfully!")
-                        with st.expander("Debug: Domain Events"):
-                            st.json([event_to_dict(e) for e in events])
-                    except Exception as e:
-                        st.error(str(e))
+            station_id_input = st.number_input("Station ID", min_value=0, step=1, help="Found on the station housing or map pin", key="report_station_id")
+            
+            if "report_content" not in st.session_state:
+                st.session_state["report_content"] = ""
+            report_text = st.text_area("Describe the issue", max_chars=200, key="report_content")
+            
+            # Button with Callback
+            st.button("Submit Report", type="primary", on_click=submit_report)
+
+            # Render Messages (Post-rerun)
+            if st.session_state["submission_success"]:
+                st.balloons()
+                st.success("Report submitted successfully!")
+                st.session_state["submission_success"] = False # Reset for next interactions
+            
+            if st.session_state["submission_error"]:
+                st.error(st.session_state["submission_error"])
+                st.session_state["submission_error"] = None
 
 # ------------------------------------------------------------
 # ADMIN VIEW
@@ -205,6 +257,7 @@ def render_admin_view():
     
     # 2. Interactive Dataframe
     st.subheader("Active Issues")
+    st.caption("👈 **Select a row** in the table below to view details and resolve issues.")
     
     if not affected_ids:
         st.success("No active malfunctions reported! System is 100% operational.")
@@ -264,7 +317,12 @@ def render_admin_view():
 
         with col_det2:
             st.markdown("### Actions")
-            if st.button("✅ Mark Repair Completed", type="primary", use_container_width=True):
+            
+            # Check threshold
+            current_reports = int(selected_row['Reports'])
+            can_repair = current_reports >= 5
+            
+            if st.button("✅ Mark Repair Completed", type="primary", use_container_width=True, disabled=not can_repair):
                 try:
                     events = malfunction_service.mark_repair_completed(sel_id)
                     st.success(f"Station {sel_id} restored!")
@@ -273,6 +331,9 @@ def render_admin_view():
                     st.rerun()
                 except Exception as e:
                     st.error(str(e))
+            
+            if not can_repair:
+                st.caption(f"⚠️ **Cannot repair**: Station needs at least 5 reports (Current: {current_reports}).")
     else:
         st.caption("Select a row in the table above to view details and perform actions.")
 

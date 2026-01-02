@@ -12,6 +12,7 @@ from chargehub.malfunction.domain.events.report_counter_incremented import Repor
 from chargehub.malfunction.domain.events.malfunction_report_threshold_reached import MalfunctionReportThresholdReachedEvent
 from chargehub.malfunction.domain.events.station_status_changed import StationStatusChangedEvent
 from chargehub.malfunction.domain.events.repair_completed import RepairCompletedEvent
+from chargehub.malfunction.domain.events.station_restored import StationRestoredEvent
 
 @dataclass()
 class MalfunctionService:
@@ -24,6 +25,9 @@ class MalfunctionService:
     def file_malfunction_report(self, station_id: int, report: str) -> Sequence[object]:
         events: list[object] = []
         rt = ReportText(report)  # validates itself
+
+        if self.report_repository.has_report(station_id, rt.value):
+            raise ValueError("Duplicate report content for this station.")
 
         events.append(MalfunctionReportFiledEvent(station_id=station_id, report=rt.value))
         events.append(AdministratorNotifiedEvent(station_id=station_id))
@@ -42,9 +46,14 @@ class MalfunctionService:
         return events
 
     def mark_repair_completed(self, station_id: int) -> Sequence[object]:
+        count = self.report_repository.count_reports(station_id)
+        if count < self.threshold:
+             raise ValueError(f"Cannot repair: Station has only {count} reports (Threshold: {self.threshold}).")
+
         # Repair completed -> station restored AVAILABLE
         self.charging_station_repository.update_station_status(station_id=station_id, status=True)
+        self.report_repository.clear_reports(station_id)
         return [
             RepairCompletedEvent(station_id=station_id),
-            StationStatusChangedEvent(station_id=station_id, status="AVAILABLE"),
+            StationRestoredEvent(station_id=station_id),
         ]
