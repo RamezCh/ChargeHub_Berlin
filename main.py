@@ -47,16 +47,17 @@ def get_container():
 config, charging_repo, discovery_service, malfunction_service = get_container()
 
 # Load GeoJSON (Cached)
+# Load GeoJSON (Cached)
 @st.cache_data
-def get_berlin_geojson(url):
+def get_berlin_geojson(path):
+    import json
     try:
-        response = requests.get(url)
-        response.raise_for_status()
-        return response.json()
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
     except Exception:
         return None
 
-geojson_data = get_berlin_geojson(config.GEOJSON_URL)
+geojson_data = get_berlin_geojson(config.GEOJSON_PATH)
 
 # ------------------------------------------------------------
 # Views Initialization

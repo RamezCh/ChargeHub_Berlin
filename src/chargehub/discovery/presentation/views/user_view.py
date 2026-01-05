@@ -75,10 +75,10 @@ class UserView:
             folium.GeoJson(
                 self.geojson_data,
                 style_function=lambda f: {
-                    "fillColor": "#ff7800" if f["properties"]["plz"] == highlight_plz else "transparent",
-                    "color": "#ff7800" if f["properties"]["plz"] == highlight_plz else "transparent",
+                    "fillColor": "#ff7800" if f["properties"]["plz_code"] == highlight_plz else "transparent",
+                    "color": "#ff7800" if f["properties"]["plz_code"] == highlight_plz else "transparent",
                     "weight": 2,
-                    "fillOpacity": 0.4 if f["properties"]["plz"] == highlight_plz else 0.0,
+                    "fillOpacity": 0.4 if f["properties"]["plz_code"] == highlight_plz else 0.0,
                 },
                 name="District"
             ).add_to(m)

@@ -6,6 +6,7 @@ class ChargeHubConfig:
     # Adjust relative path logic if needed, but __file__ based is safer if config is in src/chargehub
     _PROJECT_ROOT = Path(__file__).parent.parent.parent
     DATA_PATH = _PROJECT_ROOT / "data" / "Ladesaeulenregister.csv"
+    GEOJSON_PATH = _PROJECT_ROOT / "data" / "berlin_plz.geojson"
 
     # Map Defaults (Berlin)
     MAP_CENTER_LAT = 52.5200
