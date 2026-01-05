@@ -7,3 +7,9 @@ name = "chargehub-berlin"
 version = "0.1.0"
 description = "ChargeHub Berlin - DDD + TDD + Streamlit"
 requires-python = ">=3.10"
+
+[tool.coverage.run]
+omit = [
+    "src/chargehub/discovery/presentation/*",
+    "src/chargehub/malfunction/presentation/*"
+]

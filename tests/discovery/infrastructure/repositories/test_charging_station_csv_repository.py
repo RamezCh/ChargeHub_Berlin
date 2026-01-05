@@ -27,34 +27,12 @@ def test_load_stations(mock_read_csv, mock_csv_data):
     
     # Verify load
     stations = repo.get_all()
-    assert len(stations) == 2 # 99999 skipped (no coords), 10589 skipped (Robert Bosch + invalid coords), 10115 kept, 12345 kept
+    assert len(stations) == 2
     
     # Verify specific station details
     s1 = next(s for s in stations if s.postal_code == "10115")
     assert s1.latitude == 52.5
     assert s1.longitude == 13.4
-    
-    # Verify 10589 Logic (Robert Bosch logic from code)
-    # The code says if 10589 and Robert Bosch is NOT in operator, apply default coords.
-    # Here Robert Bosch IS in operator, but coords are invalid.
-    # Wait, the code says:
-    # if postal_code == "10589" and "Robert Bosch" not in str(row.get("Betreiber")):
-    #      if not lat_str or not lon_str or float(lat_str) < 50: override
-    # So if it IS Robert Bosch, it does NOT override.
-    # If coords are invalid, it skips.
-    # In my mock data: 10589, Robert Bosch, invalid coords -> Should be skipped?
-    # Let's check the code:
-    # 10589 check passes (it is Robert Bosch, so the 'if' condition is false)
-    # Then it hits 'if not lat_str or not lon_str' -> 'invalid' is not empty, but float conversion fails later.
-    # try: float('invalid') -> validation error -> continue.
-    # So actually my expectation of 3 might be wrong if 10589 is skipped.
-    
-    # Let's adjust expectation based on code analysis:
-    # 10115: Valid.
-    # 10589: "Robert Bosch" is IN operator. So the special fix block is SKIPPED. Coords are "invalid". float() fails. SKIPPED.
-    # 12345: Valid.
-    # 99999: Coords empty. SKIPPED.
-    # So we expect 2 stations.
     
     assert len(stations) == 2 
 
