@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from typing import List, Sequence
 
 from chargehub.discovery.application.dtos.charging_station_dto import ChargingStationDTO
+from chargehub.discovery.application.dtos.empty_charging_stations_dto import EmptyChargingStationsDTO
 from chargehub.discovery.domain.events.station_search_initiated import StationSearchInitiatedEvent
 from chargehub.discovery.domain.events.postal_code_validated import PostalCodeValidatedEvent
 from chargehub.discovery.domain.events.station_failed_event import StationFailedEvent
@@ -17,7 +18,7 @@ class ChargingStationService:
     """Application Service implementing the 'Search Charging Stations' use case."""
     repository: ChargingStationRepository
 
-    def search_by_postal_code(self, postal_code: str) -> tuple[List[ChargingStationDTO], Sequence[object]]:
+    def locate_charging_stations(self, postal_code: str) -> tuple[List[ChargingStationDTO] | EmptyChargingStationsDTO, Sequence[object]]:
         events: list[object] = [StationSearchInitiatedEvent(postal_code=postal_code)]
         try:
             pc = PostalCode(postal_code)
@@ -29,7 +30,7 @@ class ChargingStationService:
         stations = self.repository.locate_charging_stations(pc)
         if not stations:
             events.append(NoStationsFoundEvent(postal_code=pc.value))
-            return [], events
+            return EmptyChargingStationsDTO(), events
 
         events.append(StationsFoundEvent(stations=[s.station_id for s in stations]))
         dtos = [ChargingStationDTO(

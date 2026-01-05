@@ -15,8 +15,8 @@ from chargehub.malfunction.application.malfunction_service import MalfunctionSer
 from chargehub.malfunction.infrastructure.repositories.report_repository import ReportRepository
 
 # Import Presentation Layer
-from chargehub.presentation.user_view import UserView
-from chargehub.presentation.admin_view import AdminView
+from chargehub.discovery.presentation.views.user_view import UserView
+from chargehub.malfunction.presentation.views.admin_view import AdminView
 
 # ------------------------------------------------------------
 # Configuration & Setup
