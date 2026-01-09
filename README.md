@@ -16,7 +16,7 @@ Despite the growing number of charging stations in Berlin, electric vehicle (EV)
 - **Real-Time Availability**: Provide up-to-date information on plug status.
 - **Community-Driven Reporting**: Empower users to report issues and improve network reliability.
 
-## Use Cases
+## Features & Use Cases
 
 ### 1. Charging Station Discovery
 **Goal**: Allow users to find available charging stations quickly.
@@ -24,7 +24,11 @@ Despite the growing number of charging stations in Berlin, electric vehicle (EV)
 - Filter for **Currently Available Plugs** (Real-time status).
 - Visualize search results on a map or list.
 
-![Discovery Domain Event Flow](docs/diagrams/uc1_charging_station_search/SearchStation_Domain_Event_Flow.drawio.png)
+**Domain Event Flow:**
+![Discovery Domain Event Flow](docs/diagrams/charging_station_search/SearchStation_Domain_Event_Flow.drawio.png)
+
+**Sequence Diagram:**
+![Discovery Sequence Diagram](docs/diagrams/charging_station_search/Search_Station_Sequence_Diagram.svg)
 
 ### 2. Station Malfunction Management
 **Goal**: Enable community-driven maintenance reporting.
@@ -32,7 +36,11 @@ Despite the growing number of charging stations in Berlin, electric vehicle (EV)
 - **Threshold Logic**: When a station receives 5 reports, it is automatically marked as **UNAVAILABLE**.
 - Admins can review reports and restore station status.
 
-![Malfunction Domain Event Flow](docs/diagrams/uc6_malfunction_report/MalfunctionReport_Domain_Event_Flow.drawio.png)
+**Domain Event Flow:**
+![Malfunction Domain Event Flow](docs/diagrams/malfunction_report/MalfunctionReport_Domain_Event_Flow.drawio.png)
+
+**Sequence Diagram:**
+![Malfunction Sequence Diagram](docs/diagrams/malfunction_report/Station_Malfunction_Report_Sequence_Diagram.svg)
 
 ## Technology Stack
 
@@ -43,7 +51,7 @@ Despite the growing number of charging stations in Berlin, electric vehicle (EV)
 - **IDE**: VS Code / PyCharm
 - **Communication**: Synchronous Event Bus (Prototype)
 
-## Project Development Documentation
+## Component Architecture & Development
 
 ### 1. Domain Modeling and Event Structure
 
@@ -119,6 +127,12 @@ pip install -r requirements.txt
 ### Run Tests
 ```bash
 pytest
+```
+
+### Check Test Coverage
+```bash
+coverage run -m pytest tests
+coverage report -m
 ```
 
 ### Run Application
