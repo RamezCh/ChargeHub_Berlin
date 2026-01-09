@@ -12,11 +12,11 @@ from chargehub.config import ChargeHubConfig
 from chargehub.discovery.application.charging_station_service import ChargingStationService
 from chargehub.discovery.infrastructure.repositories.charging_station_csv_repository import ChargingStationCSVRepository
 from chargehub.malfunction.application.malfunction_service import MalfunctionService
-from chargehub.malfunction.infrastructure.repositories.report_repository import ReportRepository
+from chargehub.malfunction.infrastructure.repositories.report_repository import ReportRepositoryImpl
 
 # Import Presentation Layer
-from chargehub.discovery.presentation.views.user_view import UserView
-from chargehub.malfunction.presentation.views.admin_view import AdminView
+from chargehub.discovery.presentation.views.charging_station_view import ChargingStationView
+from chargehub.malfunction.presentation.views.malfunction_report_view import MalfunctionReportView
 
 # ------------------------------------------------------------
 # Configuration & Setup
@@ -34,7 +34,7 @@ def get_container():
     config = ChargeHubConfig()
     
     charging_repo = ChargingStationCSVRepository(config.DATA_PATH)
-    report_repo = ReportRepository()
+    report_repo = ReportRepositoryImpl()
     
     discovery_service = ChargingStationService(repository=charging_repo)
     malfunction_service = MalfunctionService(
@@ -46,7 +46,6 @@ def get_container():
 
 config, charging_repo, discovery_service, malfunction_service = get_container()
 
-# Load GeoJSON (Cached)
 # Load GeoJSON (Cached)
 @st.cache_data
 def get_berlin_geojson(path):
@@ -63,7 +62,7 @@ geojson_data = get_berlin_geojson(config.GEOJSON_PATH)
 # Views Initialization
 # ------------------------------------------------------------
 # Dependency Injection for Views
-user_view = UserView(
+user_view = ChargingStationView(
     discovery_service=discovery_service,
     malfunction_service=malfunction_service,
     charging_repo=charging_repo,
@@ -71,7 +70,7 @@ user_view = UserView(
     geojson_data=geojson_data
 )
 
-admin_view = AdminView(
+admin_view = MalfunctionReportView(
     malfunction_service=malfunction_service,
     charging_repo=charging_repo,
     config=config

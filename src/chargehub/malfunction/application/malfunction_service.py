@@ -3,9 +3,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Sequence
 
-from chargehub.discovery.infrastructure.repositories.charging_station_repository import ChargingStationRepository
+from chargehub.discovery.domain.interfaces.charging_station_repository import ChargingStationRepository
 from chargehub.malfunction.domain.value_objects.report_text import ReportText
-from chargehub.malfunction.infrastructure.repositories.report_repository import ReportRepository
+from chargehub.malfunction.domain.interfaces.report_repository import ReportRepository
 from chargehub.malfunction.domain.events.malfunction_report_filed import MalfunctionReportFiledEvent
 from chargehub.malfunction.domain.events.administrator_notified import AdministratorNotifiedEvent
 from chargehub.malfunction.domain.events.report_counter_incremented import ReportCounterIncrementedEvent
@@ -29,12 +29,39 @@ class MalfunctionService:
         if self.report_repository.has_report(station_id, rt.value):
             raise ValueError("Duplicate report content for this station.")
 
+        # Save report with PENDING status. NO counting increment yet.
+        _ = self.report_repository.save_report(station_id=station_id, report_text=rt.value)
+        
         events.append(MalfunctionReportFiledEvent(station_id=station_id, report=rt.value))
         events.append(AdministratorNotifiedEvent(station_id=station_id))
 
-        current_count = self.report_repository.save_report(station_id=station_id, report_text=rt.value)
-        events.append(ReportCounterIncrementedEvent(station_id=station_id, current_count=current_count))
+        return events
 
+    def approve_report(self, report_id: str) -> Sequence[object]:
+        from chargehub.malfunction.domain.aggregates.malfunction_report import ReportStatus
+        from uuid import UUID
+        
+        if isinstance(report_id, str):
+            report_id = UUID(report_id)
+
+        # 1. Update status to APPROVED
+        self.report_repository.update_status(report_id, ReportStatus.APPROVED)
+        
+        # 2. Get report details to find station_id
+        # In a real event sourced system we'd get the aggregate. Here we rely on Repo.
+        all_reports = self.report_repository.all_reports()
+        report = next((r for r in all_reports if r.id == report_id), None)
+        
+        if not report:
+            raise ValueError("Report not found")
+        
+        station_id = report.station_id
+        current_count = self.report_repository.count_reports(station_id)
+        
+        events: list[object] = []
+        events.append(ReportCounterIncrementedEvent(station_id=station_id, current_count=current_count))
+        
+        # 3. Check Threshold
         if current_count >= self.threshold:
             events.append(MalfunctionReportThresholdReachedEvent(
                 station_id=station_id, threshold=self.threshold, current_count=current_count
@@ -42,8 +69,18 @@ class MalfunctionService:
             # Update station status to UNAVAILABLE
             self.charging_station_repository.update_station_status(station_id=station_id, status=False)
             events.append(StationStatusChangedEvent(station_id=station_id, status="UNAVAILABLE"))
-
+            
         return events
+
+    def reject_report(self, report_id: str) -> Sequence[object]:
+        from chargehub.malfunction.domain.aggregates.malfunction_report import ReportStatus
+        from uuid import UUID
+        
+        if isinstance(report_id, str):
+            report_id = UUID(report_id)
+            
+        self.report_repository.update_status(report_id, ReportStatus.REJECTED)
+        return []
 
     def mark_repair_completed(self, station_id: int) -> Sequence[object]:
         count = self.report_repository.count_reports(station_id)

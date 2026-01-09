@@ -3,8 +3,9 @@ from __future__ import annotations
 from typing import Iterable, List
 from chargehub.discovery.domain.aggregates.charging_station import ChargingStationAggregate
 from chargehub.discovery.domain.value_objects.postal_code import PostalCode
+from chargehub.discovery.domain.interfaces.charging_station_repository import ChargingStationRepository
 
-class ChargingStationRepository:
+class ChargingStationRepository(ChargingStationRepository):
     """InMemory repository (as required by ASE guideline)."""
 
     def __init__(self, stations: Iterable[ChargingStationAggregate] | None = None) -> None:

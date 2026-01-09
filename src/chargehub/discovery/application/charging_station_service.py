@@ -10,18 +10,19 @@ from chargehub.discovery.domain.events.postal_code_validated import PostalCodeVa
 from chargehub.discovery.domain.events.station_failed_event import StationFailedEvent
 from chargehub.discovery.domain.events.stations_found import StationsFoundEvent
 from chargehub.discovery.domain.events.no_stations_found import NoStationsFoundEvent
+from chargehub.discovery.domain.aggregates.charging_station import ChargingStationAggregate
 from chargehub.discovery.domain.value_objects.postal_code import PostalCode
-from chargehub.discovery.infrastructure.repositories.charging_station_repository import ChargingStationRepository
+from chargehub.discovery.domain.interfaces.charging_station_repository import ChargingStationRepository
 
 @dataclass()
 class ChargingStationService:
     """Application Service implementing the 'Search Charging Stations' use case."""
     repository: ChargingStationRepository
 
-    def locate_charging_stations(self, postal_code: str) -> tuple[List[ChargingStationDTO] | EmptyChargingStationsDTO, Sequence[object]]:
-        events: list[object] = [StationSearchInitiatedEvent(postal_code=postal_code)]
+    def locate_charging_stations(self, postal_code_str: str) -> tuple[Sequence[ChargingStationAggregate], Sequence[object]]:
+        events: list[object] = [StationSearchInitiatedEvent(postal_code=postal_code_str)]
         try:
-            pc = PostalCode(postal_code)
+            pc = PostalCode(postal_code_str)
             events.append(PostalCodeValidatedEvent(postal_code=pc.value))
         except ValueError:
             events.append(StationFailedEvent(reason="Invalid Format"))

@@ -6,7 +6,7 @@ from chargehub.discovery.application.charging_station_service import ChargingSta
 from chargehub.malfunction.application.malfunction_service import MalfunctionService
 from chargehub.discovery.infrastructure.repositories.charging_station_csv_repository import ChargingStationCSVRepository
 
-class UserView:
+class ChargingStationView:
     def __init__(self, 
                  discovery_service: ChargingStationService, 
                  malfunction_service: MalfunctionService,
@@ -40,29 +40,38 @@ class UserView:
             stations = self.charging_repo.get_all()[:50]
             st.info(f"Showing {len(stations)} stations. Enter a PLZ to filter.")
 
-        # Build and render map (simple, no caching)
+        # Build and render map
         m = self._build_map(stations, postal_code.strip() if postal_code else None)
         st_folium(m, width="100%", height=500)
         
         st.divider()
         
-        # Report form
-        st.subheader("🛠️ Report a Malfunction")
+        st.divider()
         
-        with st.form("report_form"):
-            station_id = st.number_input("Station ID", min_value=1, step=1)
-            description = st.text_area("Issue Description", max_chars=200, height=100)
-            
-            if st.form_submit_button("Submit Report", type="primary"):
-                if description.strip():
-                    try:
-                        self.malfunction_service.file_malfunction_report(station_id, description)
-                        st.success(f"✅ Report submitted for Station {station_id}!")
-                        st.balloons()
-                    except Exception as e:
-                        st.error(f"❌ {str(e)}")
-                else:
-                    st.error("❌ Please describe the issue.")
+        # Report form with modern styling
+        st.subheader("🛠️ Report a Malfunction")
+        st.caption("Help us keep Berlin charging! Reports require admin approval before affecting station status.")
+        
+        with st.container(border=True):
+            st.markdown("**Submit a New Report**")
+            with st.form("report_form", border=False):
+                col1, col2 = st.columns([1, 3])
+                with col1:
+                    station_id = st.number_input("Station ID", min_value=1, step=1)
+                with col2:
+                    description = st.text_input("Issue Description", max_chars=100, placeholder="e.g., Screen broken, Connector damaged")
+                
+                submitted = st.form_submit_button("Submit Report", type="primary", use_container_width=True)
+                
+                if submitted:
+                    if description.strip():
+                        try:
+                            self.malfunction_service.file_malfunction_report(station_id, description)
+                            st.success(f"Report submitted for Station **{station_id}**. Status: *Pending Approval*.")
+                        except Exception as e:
+                            st.error(f"Error: {str(e)}")
+                    else:
+                        st.warning("Please describe the issue before submitting.")
 
     def _build_map(self, stations, highlight_plz=None):
         m = folium.Map(

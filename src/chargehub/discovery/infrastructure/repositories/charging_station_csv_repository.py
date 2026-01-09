@@ -6,8 +6,9 @@ from typing import List
 
 from chargehub.discovery.domain.aggregates.charging_station import ChargingStationAggregate
 from chargehub.discovery.domain.value_objects.postal_code import PostalCode
+from chargehub.discovery.domain.interfaces.charging_station_repository import ChargingStationRepository
 
-class ChargingStationCSVRepository:
+class ChargingStationCSVRepository(ChargingStationRepository):
     """
     Infrastructure Repository reading charging stations from
     Bundesnetzagentur CSV (Ladesaeulenregister.csv).
