@@ -148,7 +148,15 @@ To ensure type safety and valid state encapsulation, several explicit Value Obje
               raise ValueError("Report must be <= 200 characters")
   ```
 
-- **MalfunctionThreshold**: Encapsulates the logic for when a station is deemed unavailable. It ensures the threshold value is essential and positive (defaulting to 3 or 5), decoupling business rules from primitive integer values.
+  - **MalfunctionThreshold**: Encapsulates the logic for when a station is deemed unavailable. It ensures the threshold value is essential and positive (defaulting to 3 or 5), decoupling business rules from primitive integer values.
+  ```python
+  @dataclass(frozen=True)
+  class MalfunctionThreshold:
+      value: int = 5
+      def __post_init__(self) -> None:
+          if self.value < 1:
+              raise ValueError("Threshold must be at least 1 report")
+  ```
 
 #### Bounded Contexts
 
@@ -176,7 +184,7 @@ To ensure type safety and valid state encapsulation, several explicit Value Obje
 
 **Aggregate Boundaries**
 
-Strict boundaries are enforced to maintain consistency. The **ChargingStationAggregate** solely owns the station's availability state and validation logic. The **MalfunctionAggregate** manages the lifecycle of reports but cannot directly mutate charging stations; it must emit events or use domain services to request status updates across boundaries.
+Strict boundaries are enforced to maintain consistency. The **ChargingStationAggregate** solely owns the station's availability state and validation logic. The **MalfunctionAggregate** manages the lifecycle of reports but cannot directly mutate charging stations. Instead, it emits domain events (e.g., `MalfunctionReportThresholdReached`), which are intercepted by event handlers. These handlers then invoke the necessary repository methods to update the station's availability in the `ChargingStationAggregate`, ensuring decoupling.
 
 #### Bounded Context Communication
 
@@ -228,7 +236,7 @@ Layer responsibilities:
 ![Search Station Event Flow](docs/diagrams/charging_station_search/SearchStation_Domain_Event_Flow.drawio.png)
 
 **Event Flow Description**
-Command (Submit Postal Code) → Domain Event (PostalCodeSubmitted) → Application Service validates → Domain Event (SearchDataFetched) → UI Update (Display Results).
+The flow begins when a user submits a postal code (Command), which triggers a `PostalCodeSubmitted` event. A handler validates this input, fetches data, and emits `SearchDataFetched`, allowing the UI to reactively display the available stations.
 
 **Sequence Diagram**  
 ![Search Station Sequence Diagram](docs/diagrams/charging_station_search/Search_Station_Sequence_Diagram.svg)
@@ -241,7 +249,7 @@ Command (Submit Postal Code) → Domain Event (PostalCodeSubmitted) → Applicat
 ![Malfunction Report Event Flow](docs/diagrams/malfunction_report/MalfunctionReport_Domain_Event_Flow.drawio.png)
 
 **Event Flow Description**
-Command (Report Malfunction) → Domain Event (MalfunctionReportFiled) → Handler assesses Threshold → Domain Event (MalfunctionReportThresholdReached) → Service updates Repository (StationUnavailable).
+The process starts with a `MalfunctionReportFiled` event. If the report counts exceed the `MalfunctionThreshold`, a `MalfunctionReportThresholdReached` event is emitted. A separate event handler subscribes to this specific event and triggers the repository to mark the station as unavailable.
 
 **Sequence Diagram**  
 ![Malfunction Report Sequence Diagram](docs/diagrams/malfunction_report/Station_Malfunction_Report_Sequence_Diagram.svg)
@@ -256,8 +264,8 @@ Test Driven Development was applied throughout the project using a Red Green Ref
 
 Tests were written before production code for all core domain logic, structured into:
 
-- **Unit Tests**: Focus on Aggregates (e.g., `MalfunctionAggregate`), Value Objects (`PostalCode`), and pure domain logic.
-- **Application Service Tests**: Verify the orchestration of commands and events.
+- **Domain Tests (Unit)**: Focus on Aggregates (e.g., `MalfunctionAggregate`), Value Objects (`PostalCode`), and pure domain logic.
+- **Application Tests (Integration)**: Verify the orchestration of commands and events.
   ```python
   def test_search_returns_only_available_stations():
       repo = ChargingStationRepository(stations) # Mock
@@ -266,7 +274,7 @@ Tests were written before production code for all core domain logic, structured 
       assert [r.station_id for r in results] == [1]
   ```
 
-- **Infrastructure Tests**: Validate CSV parsing and repository persistence mechanisms in isolation.
+- **Infrastructure Tests (Integration)**: Validate CSV parsing and repository persistence mechanisms in isolation.
   ```python
   @patch("pandas.read_csv")
   def test_load_stations(mock_read_csv, mock_csv_data):
