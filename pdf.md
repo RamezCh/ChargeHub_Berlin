@@ -104,7 +104,8 @@ Both use cases were modeled using UML use case diagrams, workflow diagrams, sequ
 - **Modeling Tools:** UML, Miro, Mermaid, Draw.io  
 - **IDE:** VS Code, PyCharm  
 - **Version Control:** Git and GitHub  
-- **LLM Support:** ChatGPT, Gemini, Claude  
+- **LLM Support:** ChatGPT, Gemini, Claude
+- **Meetings** Jitsi & Google Meet
 
 Streamlit was selected to rapidly prototype user workflows while maintaining strict separation between presentation, application, and domain layers.
 
