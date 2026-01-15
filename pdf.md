@@ -218,8 +218,21 @@ The Charging Station Discovery and Malfunction Management contexts do not depend
 The project follows Clean Architecture with strict dependency rules.
 
 **Placeholder: Project folder structure screenshot**  
-*(Insert IDE screenshot showing domain, application, infrastructure, and presentation layers)*
+The project follows Clean Architecture with strict dependency rules. Below is the directory structure illustrating the separation of Bounded Contexts (`discovery` and `malfunction`) and their respective Domain, Application, and Infrastructure layers.
 
+```bash
+src/chargehub/
+├── discovery/             # Bounded Context 1
+│   ├── domain/            # Value Objects, Aggregates, Interfaces
+│   ├── application/       # ChargingStationService
+│   ├── infrastructure/    # CSV Repository Implementation
+│   └── presentation/      # Streamlit Views
+├── malfunction/           # Bounded Context 2
+│   ├── domain/            # Aggregates (MalfunctionReport), Events
+│   ├── application/       # MalfunctionService
+│   └── infrastructure/    # In-memory Repository
+└── tests/                 # Mirroring src/ structure for TDD
+```
 Layer responsibilities:
 1. **Domain:** Aggregates, value objects, domain events, repository interfaces  
 2. **Application:** Services orchestrating domain logic  
@@ -284,10 +297,13 @@ Tests were written before production code for all core domain logic, structured 
       assert len(stations) == 2
   ```
 
-#### Development Approach
-
-Each team member was responsible for a specific use case or domain area. Development started by writing unit tests for business rules before implementing production code. Coordination was handled through Git branches and regular code reviews.
-
+#### Development Coordination
+To ensure consistency and collaboration, the team followed a structured approach:
+- **Synchronous Planning:** Team meetings were held to define core test cases and align on business rules before any coding began.
+- **Joint Scaffolding:** We collectively designed the DDD directory structure (Domain, Application, Infrastructure, Presentation) to ensure strict layer separation from the start.
+- **Git-Based Workflow:** Each member owned a specific unit, working on dedicated feature branches. We adhered to a "Test-First" sequence, committing unit tests to Git before finalizing the functional logic.
+- **Pair Programming:** For complex logic like MalfunctionThreshold, we used pair programming to strictly maintain TDD principles.
+  
 ---
 
 #### TDD Adherence
@@ -387,14 +403,36 @@ CSV based charging station datasets from Part 1 were integrated into the discove
 - Formatting issues were resolved during parsing  
 - Infrastructure concerns remain isolated from domain logic  
 
+
+**Standardizing Header** Naming and Formatting To adhere to DDD and Python conventions, we mapped the raw German CSV headers to our internal domain attributes during the loading process:
+
+- **Typecasting:** Explicitly converting coordinate strings to floats and ensuring postal codes remain strings.
+- **Header Mapping:** `Postleitzahl` → `postal_code`, `Breitengrad` → `latitude`
+
+```python
+from __future__ import annotations
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class ChargingStationDTO:
+    station_id: int
+    postal_code: str
+    latitude: float
+    longitude: float
+    available: bool
+    operator: str | None = None
+    address: str | None = None
+
+```
 ---
 
 ### 3.4 LLM Integration
 
-LLMs were used selectively for:
-- Domain Driven Design modeling guidance  
-- Diagram generation support  
-- Code structure and refactoring suggestions  
+LLMs were used selectively to support the development process:
+- **Brainstorming:** We used Claude for following DDD principles and defining bounded contexts.
+- **Testing:** We used Claude for writing boilerplate test cases to speed up the TDD cycle.
+- **UI Design:** Used it for prototyping the Streamlit interface structure. 
+- **Debugging:** Better understanding of obscure error messages and solving type casting issues.
 
 All architectural and engineering decisions remained human driven.
 
